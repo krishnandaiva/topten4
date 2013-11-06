@@ -1,0 +1,1023 @@
+code/community/VladimirPopov/WebForms/Block/Adminhtml/Results/Grid.php:			'filter_condition_callback' => array($this, '_filterCustomerCondition'),
+code/community/VladimirPopov/WebForms/Block/Adminhtml/Results/Grid.php:				'filter_condition_callback'	=> array($this, '_filterStoreCondition'),
+code/community/Phoenix/Moneybookers/etc/system.xml:                            <comment>Pre-shared secret key to secure the transaction. After activation Moneybookers will give you access to a new section in your Moneybookers account called "Merchant tools". Please choose a secret word (do not use your password for this) and provide it in your Moneybookers admin area and above.</comment>
+code/community/Phoenix/Moneybookers/controllers/ProcessingController.php:     * call to jump out of the iframe.
+code/community/Codnitive/Extifcon/Model/Core/Layout.php:                        $args[$key] = call_user_func_array(array(Mage::helper($helperName), $helperMethod), $arg);
+code/community/Codnitive/Extifcon/Model/Core/Layout.php:            call_user_func_array(array($block, $method), $args);
+code/community/Rayfox/Catalog/Model/Layer.php:		//call parent prepareProductCollection
+code/community/Ophirah/Qquoteadv/Model/Api.php:         * getProcessedTemplate is called inside send()
+code/community/Ophirah/Qquoteadv/Model/Qquoteadv/Api.php:     * getProcessedTemplate is called inside send()
+code/community/Ophirah/Qquoteadv/Model/Qqadvcustomer.php:             * getProcessedTemplate is called inside send()
+code/community/Diglin/UIOptimization/etc/system.xml:                        <comment><![CDATA[Each compressed css/js files are updated each time their original files are updated. But if you want to save some resources (e.g. if you make lots of updates), you can force the regeneration of the compressed/minified js/css files periodically by enabling the option below. It will update the files each sunday at 2:00 by default. Cron works only if you have correctly configured the general cron of your Magento installation, see the <a href="#" onclick="javascript:window.open('http://www.magentocommerce.com/wiki/1_-_installation_and_configuration/how_to_setup_a_cron_job')" >wiki of Magento</a> to know how to do it.<br/>
+code/community/Diglin/UIOptimization/etc/system.xml:                                <label>Update periodically the JS/CSS compressed files</label>
+code/community/Diglin/UIOptimization/etc/system.xml:                    Please, be aware that this service won't work if you use it on a website not accessible by the Validator. You should install a <a href="#" onclick="javascript:window.open('http://validator.w3.org/docs/api.html')">local</a> one if you need to use it locally. <a href="#" onclick="javascript:window.open('http://habilis.net/validator-sac/')">Validator S.A.C.</a> for Os X 10.4 to 10.6 can help you easily to install a local one.<br/>
+code/community/Diglin/UIOptimization/etc/system.xml:                            <comment><![CDATA[By default the validator detects the charset of the document automatically.]]></comment>
+code/community/Diglin/UIOptimization/etc/system.xml:                            <comment><![CDATA[By default the validator detects the document type of the document automatically ]]></comment>
+code/community/Diglin/UIOptimization/Block/W3Chtmlvalidator.php:         * The var $pear is not used here for the moment. But the call to Varien_Pear is necessary
+code/community/Diglin/UIOptimization/Block/Optimize/Head.php:     * Will attempt to merge into 1 directive, if merging callback is provided. In this case it will generate
+code/community/Diglin/UIOptimization/Block/Optimize/Head.php:     * The merger callback is responsible for checking whether files exist, merging them and giving result URL
+code/community/Diglin/UIOptimization/Block/Optimize/Head.php:     * @param callback $mergeCallback
+code/community/Diglin/UIOptimization/Block/Optimize/Head.php:        if ($mergeCallback && !is_callable($mergeCallback)) {
+code/community/Diglin/UIOptimization/Block/Optimize/Head.php:                $mergedUrl = call_user_func($mergeCallback, $rows);
+code/community/Diglin/UIOptimization/Block/W3Ccssvalidator.php:         * The var $pear is not used here for the moment. But the call to Varien_Pear is necessary
+code/community/Diglin/UIOptimization/Model/Config/Source/Doctype.php:          array('value' => "Inline", 'label' => "(detect automatically)"),
+code/community/Diglin/UIOptimization/Model/Config/Source/Charset.php:                array('value' => "", 'label' => "(detect automatically)"),
+code/local/FME/Quickrfq/Block/Quickrfq.php:     and returns the path to the frontend from where it is called
+code/local/Mirasvit/MCore/Helper/Image.php:     * Applicable before calling resize()
+code/local/Mirasvit/MCore/Helper/Image.php:     * Applicable before calling resize()
+code/local/Mirasvit/MCore/Helper/Image.php:     * Applicable before calling resize()
+code/local/Mirasvit/MCore/Helper/Image.php:     * Applicable before calling resize()
+code/local/Mirasvit/MCore/Helper/Image.php:     * Applicable before calling resize()
+code/local/Amasty/Shopby/Helper/Data.php:        // make sure we call this only once
+code/local/Amasty/Shopby/Block/Adminhtml/Page/Edit/Form.php:     * Compares category data. Must be public as used as a callback value
+code/local/WP/CustomMenu/Block/About.php:     * Might as well just call this an iteration.
+code/local/WP/CustomMenu/Block/About.php:     * - Support for predefined callbacks (Necessary for OAuth signed requests, by @rboyce)
+code/local/WP/CustomMenu/Block/About.php:                this.options.callbackParamName = this.options.callbackParamName || \'callback\';
+code/local/WP/CustomMenu/Block/About.php:                var key = this.options.callbackParamName,
+code/local/WP/CustomMenu/Block/About.php:                            this.options.onComplete.call(this, response);
+code/local/WP/CustomMenu/Block/About.php:                // If the callback parameter is already defined, use that
+code/local/WP/CustomMenu/Block/About.php:                // Otherwise, add callback as a parameter
+code/local/WP/CustomMenu/Block/About.php:                // Define callback function
+code/local/WP/CustomMenu/Block/About.php:                        this.options.onSuccess.call(this, response);
+code/local/WP/CustomMenu/Block/About.php:                    this.options.onCreate.call(this, response);
+code/local/WP/CustomMenu/Block/About.php:                        this.options.onFailure.call(this, response);
+code/local/WP/CustomMenu/Block/About.php:            callbackParamName: "jsoncallback",
+code/local/WP/CustomMenu/Block/Navigation.php:            // --- combine consistently numerically small column ---
+code/local/WP/ThemeGrayscale/Block/About.php:     * Might as well just call this an iteration.
+code/local/WP/ThemeGrayscale/Block/About.php:     * - Support for predefined callbacks (Necessary for OAuth signed requests, by @rboyce)
+code/local/WP/ThemeGrayscale/Block/About.php:                this.options.callbackParamName = this.options.callbackParamName || \'callback\';
+code/local/WP/ThemeGrayscale/Block/About.php:                var key = this.options.callbackParamName,
+code/local/WP/ThemeGrayscale/Block/About.php:                            this.options.onComplete.call(this, response);
+code/local/WP/ThemeGrayscale/Block/About.php:                // If the callback parameter is already defined, use that
+code/local/WP/ThemeGrayscale/Block/About.php:                // Otherwise, add callback as a parameter
+code/local/WP/ThemeGrayscale/Block/About.php:                // Define callback function
+code/local/WP/ThemeGrayscale/Block/About.php:                        this.options.onSuccess.call(this, response);
+code/local/WP/ThemeGrayscale/Block/About.php:                    this.options.onCreate.call(this, response);
+code/local/WP/ThemeGrayscale/Block/About.php:                        this.options.onFailure.call(this, response);
+code/local/WP/ThemeGrayscale/Block/About.php:            callbackParamName: "jsoncallback",
+code/local/Zend/Http/Client/Adapter/Curl.php:        // ensure correct curl call
+code/local/Zend/Http/Client/Adapter/Curl.php:        // cURL automatically decodes chunked-messages, this means we have to disallow the Zend_Http_Response to do it again
+code/local/Zend/Http/Client/Adapter/Curl.php:        // cURL automatically handles Proxy rewrites, remove the "HTTP/1.0 200 Connection established" string:
+code/local/Irohleder/Commercebug/etc/system.xml:							Classes listed here will be automatically suppressed from 
+Binary file code/local/Irohleder/Commercebug/manual/Commercebug_Manual.mobi matches
+code/local/Irohleder/Commercebug/manual/Commercebug_Manual.html:<p>The following documentation refers specifically of functionality in Magento 1.7+, but most information should be relevant to <strong>all</strong> Magento versions.</p>
+code/local/Irohleder/Commercebug/manual/Commercebug_Manual.html:<p>The &quot;front&quot; or &quot;module&quot; portion of the URL as seen by the controller object. Typically this is the first part of the URL</p>
+code/local/Irohleder/Commercebug/manual/Commercebug_Manual.html:<p>The controller portion of the URL, as seen by the controller object. This is typically the second part of the URL</p>
+code/local/Irohleder/Commercebug/manual/Commercebug_Manual.html:<p>The action portion of the URL, as seen by the controller object. This is typically the third part of the URL</p>
+code/local/Irohleder/Commercebug/manual/Commercebug_Manual.html:<p>The &quot;Other Classes&quot; tab attempts to collect detect when these classes are used during a page request and display their name/file location. To help reduce the number of classes displayed on this tab, Commerce Bug will automatically surpress the display of classes listed at</p>
+code/local/Irohleder/Commercebug/manual/Commercebug_Manual.html:<p>Additionally, the <code>area</code> column may be misleading. If an event is configured in the <code>global</code> area, Magento will add it to the <code>front</code> or <code>adminhtml</code> area automatically before firing it. This means during normal system operation an event listed under the <code>global</code> area will be duplicated under the <code>frontname</code> or <code>adminhtml</code> area.</p>
+code/local/Irohleder/Commercebug/manual/Commercebug_Manual.html:<p>The name of the called observer method.</p>
+code/local/Irohleder/Commercebug/manual/Commercebug_Manual.html:<p>The System Tasks toggle <strong>do not</strong> alter information in the <code>core_config_data</code> table. Instead, toggle values are stored in Magento's cache and then loaded dynamically at runtime via an event observer. This ensures only Commerce Bug users will see the system in its altered state.</p>
+code/local/Irohleder/Commercebug/manual/Commercebug_Manual.html:<p>Before displaying its interface, Commerce Bug will call this object's <code>isOn</code> method. If it returns <code>true</code>, Commerce Bug will display. If not, Commerce Bug's UI will be suppressed.</p>
+code/local/Irohleder/Commercebug/CB_Manual.txt:The following documents refers specifically of functionality in Magento 1.7+, but most information should be relevant to **all** Magento versions.
+code/local/Irohleder/Commercebug/CB_Manual.txt:The "front" or "module" portion of the URL as seen by the controller object. Typically this is the first part of the URL
+code/local/Irohleder/Commercebug/CB_Manual.txt:The controller portion of the URL, as seen by the controller object.  Typically, but not always, the second part of the URL
+code/local/Irohleder/Commercebug/CB_Manual.txt:The action portion of the URL, as seen by the controller object.  Typically, but not always, the thirst part of the URL
+code/local/Irohleder/Commercebug/CB_Manual.txt:Additionally, the `area` column may be misleading.  If an event is configured in the `global` area, Magento will add it to the `front` or `adminhtml` area automatically before firing it.  This means during normal system operation an event listed under the `global` area will be duplicated under the `frontname` or `adminhtml` area.
+code/local/Irohleder/Commercebug/CB_Manual.txt:The name of the called observer method.
+code/local/Irohleder/Commercebug/CB_Manual.txt:Before displaying its interface, Commerce Bug will call this object's `isOn` method.  If it returns `true`, Commerce Bug will display.  If not, Commerce Bug's UI will be suppressed. 
+code/local/Irohleder/Commercebug/tags:QUnit.equiv.callbacks	skin/frontend/commercebug/jquery-ui-1.8.custom.origial/development-bundle/external/qunit.js	744;"	f	line:744
+code/local/Irohleder/Commercebug/tags:QUnit.equiv.callbacks.useStrictEquality	skin/frontend/commercebug/jquery-ui-1.8.custom.origial/development-bundle/external/qunit.js	747;"	f	line:747
+code/local/Irohleder/Commercebug/tags:__call	Helper/Formatlog/Allsimple.php	114;"	f	line:114
+code/local/Irohleder/Commercebug/tags:callback	skin/frontend/commercebug/jquery-ui-1.8.custom.origial/development-bundle/demos/addClass/default.html	23;"	f	line:23
+code/local/Irohleder/Commercebug/tags:callback	skin/frontend/commercebug/jquery-ui-1.8.custom.origial/development-bundle/demos/effect/default.html	50;"	f	line:50
+code/local/Irohleder/Commercebug/tags:callback	skin/frontend/commercebug/jquery-ui-1.8.custom.origial/development-bundle/demos/hide/default.html	49;"	f	line:49
+code/local/Irohleder/Commercebug/tags:callback	skin/frontend/commercebug/jquery-ui-1.8.custom.origial/development-bundle/demos/removeClass/default.html	23;"	f	line:23
+code/local/Irohleder/Commercebug/tags:callback	skin/frontend/commercebug/jquery-ui-1.8.custom.origial/development-bundle/demos/show/default.html	49;"	f	line:49
+code/local/Irohleder/Commercebug/tags:effect.28_effect.2C_.5Boptions.5D.2C_.5Bspeed.5D.2C_.5Bcallback.5D_.29	skin/frontend/commercebug/jquery-ui-1.8.custom.origial/development-bundle/docs/effect.html	11;"	a	line:11
+code/local/Irohleder/Commercebug/tags:hide.28_effect.2C_.5Boptions.5D.2C_.5Bspeed.5D.2C_.5Bcallback.5D_.29	skin/frontend/commercebug/jquery-ui-1.8.custom.origial/development-bundle/docs/hide.html	11;"	a	line:11
+code/local/Irohleder/Commercebug/tags:show.28_effect.2C_.5Boptions.5D.2C_.5Bspeed.5D.2C_.5Bcallback.5D_.29	skin/frontend/commercebug/jquery-ui-1.8.custom.origial/development-bundle/docs/show.html	11;"	a	line:11
+code/local/Irohleder/Commercebug/tags:toggle.28_effect.2C_.5Boptions.5D.2C_.5Bspeed.5D.2C_.5Bcallback.5D_.29	skin/frontend/commercebug/jquery-ui-1.8.custom.origial/development-bundle/docs/toggle.html	11;"	a	line:11
+code/local/Irohleder/Commercebug/Helper/Abstract.php:        if(is_callable(array($shim->helper('core'),'isModuleOutputEnabled')))
+code/local/Irohleder/Commercebug/Helper/Formatlog/Allsimple.php:        return call_user_func_array(array($this,'format'.ucwords($key)),array($value));			
+code/local/Irohleder/Commercebug/Helper/Formatlog/Allsimple.php:    public function __call($func,$args)
+code/local/Irohleder/Commercebug/Block/Html.php:    const UPDATE_URL = 'http://commercebug.alanstorm.com/index.php/version?callback=?';
+code/local/Irohleder/Commercebug/Model/Developerip.php:    * Commerce Bug calls this methed to determine if it should
+code/local/Irohleder/Commercebug/Model/Ison.php:    * Commerce Bug calls this methed to determine if it should
+code/local/Irohleder/Commercebug/Model/Observingcollector.php:    * Automatically passed top level stdClass object, client programmer
+code/local/Irohleder/Commercebug/Model/Observingcollector.php:    * If you attempt to call getStoreConfig before a store is
+code/local/Irohleder/Commercebug/sql/commercebug_setup/mysql4-upgrade-1.3.0-1.5.0.php:	if(is_object($o) && method_exists($o, 'refreshAcl') && is_callable(array($o,'refreshAcl')))
+code/local/Irohleder/Commercebug/sql/commercebug_setup/mysql4-upgrade-1.4.0-1.5.0.php:	if(is_object($o) && method_exists($o, 'refreshAcl') && is_callable(array($o,'refreshAcl')))
+code/local/Irohleder/Commercebug/sql/commercebug_setup/mysql4-upgrade-1.2.0-1.5.0.php:	if(is_object($o) && method_exists($o, 'refreshAcl') && is_callable(array($o,'refreshAcl')))
+code/core/Mage/Downloadable/Helper/File.php:            'xcmc' => 'application/vnd.cosmocaller',
+code/core/Mage/Downloadable/Model/Link/Api/Validator.php:                $call = 'validate' . $validator;
+code/core/Mage/Downloadable/Model/Link/Api/Validator.php:                $this->$call($resource[$name]);
+code/core/Mage/Core/Controller/Varien/Exception.php:     * Return results as callback for a controller
+code/core/Mage/Core/Controller/Varien/Router/Standard.php:     * dummy call to pass through checking
+code/core/Mage/Core/Controller/Varien/Router/Admin.php:     * dummy call to pass through checking
+code/core/Mage/Core/Controller/Varien/Action.php:        return is_callable(array($this, $this->getActionMethodName($action)));
+code/core/Mage/Core/Controller/Varien/Action.php:            if (!is_callable(array($this, $actionMethodName))) {
+code/core/Mage/Core/Controller/Varien/Action.php:            // call forward, redirect or an action
+code/core/Mage/Core/Controller/Request/Http.php:     * before _forward was called first time.
+code/core/Mage/Core/Controller/Request/Http.php:     * Retrieve property's value which was before _forward call.
+code/core/Mage/Core/Controller/Request/Http.php:     * If property was not changed during _forward call null will be returned.
+code/core/Mage/Core/Helper/Data.php:     * May apply callback to each file contents. Callback gets parameters:
+code/core/Mage/Core/Helper/Data.php:     * @param callback $beforeMergeCallback
+code/core/Mage/Core/Helper/Data.php:                    if ($beforeMergeCallback && is_callable($beforeMergeCallback)) {
+code/core/Mage/Core/Helper/Data.php:                        $contents = call_user_func($beforeMergeCallback, $file, $contents);
+code/core/Mage/Core/Block/Abstract.php:     * Internal constructor, that is called from real constructor
+code/core/Mage/Core/Block/Abstract.php:     * Call a child and unset it, if callback matched result
+code/core/Mage/Core/Block/Abstract.php:     * $params will pass to child callback
+code/core/Mage/Core/Block/Abstract.php:     * $params may be array, if called from layout with elements with same name, for example:
+code/core/Mage/Core/Block/Abstract.php:     * Or, if called like this:
+code/core/Mage/Core/Block/Abstract.php:     * @param string $callback
+code/core/Mage/Core/Block/Abstract.php:    public function unsetCallChild($alias, $callback, $result, $params)
+code/core/Mage/Core/Block/Abstract.php:            $callback = array_shift($args);
+code/core/Mage/Core/Block/Abstract.php:            if ($result == call_user_func_array(array(&$child, $callback), $params)) {
+code/core/Mage/Core/Block/Abstract.php:     * or an array of <alias> => <callback_result>
+code/core/Mage/Core/Block/Abstract.php:     * The callback currently supports only $this methods and passes the alias as parameter
+code/core/Mage/Core/Block/Abstract.php:     * @param string $callback
+code/core/Mage/Core/Block/Abstract.php:    public function getChildGroup($groupName, $callback = null, $skipEmptyResults = true)
+code/core/Mage/Core/Block/Abstract.php:                if ($callback) {
+code/core/Mage/Core/Block/Abstract.php:                    $row = $this->$callback($alias);
+code/core/Mage/Core/Block/Template.php:     * Internal constructor, that is called from real constructor
+code/core/Mage/Core/Model/Abstract.php:     * Callback function which called after transaction commit in resource model
+code/core/Mage/Core/Model/Abstract.php:     * When method is called we don't have garantee what transaction was really commited
+code/core/Mage/Core/Model/Url.php:         * All system params should be unset before we call getRouteUrl
+code/core/Mage/Core/Model/Url.php:         * Apply query params, need call after getRouteUrl for rewrite _current values
+code/core/Mage/Core/Model/Url.php:        return preg_replace_callback('#(\?|&amp;|&)___SID=([SU])(&amp;|&)?#',
+code/core/Mage/Core/Model/Email/Template/Filter.php:     * Setup callbacks for filters
+code/core/Mage/Core/Model/Email/Template/Filter.php:        if (!isset($method) || !is_string($method) || !is_callable(array($block, $method))) {
+code/core/Mage/Core/Model/Email/Template/Filter.php:                $callback = $this->_modifiers[$modifier];
+code/core/Mage/Core/Model/Email/Template/Filter.php:                if (!$callback) {
+code/core/Mage/Core/Model/Email/Template/Filter.php:                    $callback = $modifier;
+code/core/Mage/Core/Model/Email/Template/Filter.php:                $value = call_user_func_array($callback, $params);
+code/core/Mage/Core/Model/Layout.php:     * Cache of block callbacks to output during rendering
+code/core/Mage/Core/Model/Layout.php:                        $args[$key] = call_user_func_array(array(Mage::helper($helperName), $helperMethod), $arg);
+code/core/Mage/Core/Model/Layout.php:            call_user_func_array(array($block, $method), $args);
+code/core/Mage/Core/Model/Layout.php:            foreach ($this->_output as $callback) {
+code/core/Mage/Core/Model/Layout.php:                $out .= $this->getBlock($callback[0])->$callback[1]();
+code/core/Mage/Core/Model/Layout.php:     * 3) layout handle name - first 1 or 2 parts (namespace is determined automatically)
+code/core/Mage/Core/Model/Config/Data.php:     * Add availability call after load as public
+code/core/Mage/Core/Model/Design/Package.php:     * Using only to transmit additional parametr in callback functions
+code/core/Mage/Core/Model/Design/Package.php:    protected $_callbackFileDir;
+code/core/Mage/Core/Model/Design/Package.php:     * If disabled, the lookup won't be performed to spare filesystem calls.
+code/core/Mage/Core/Model/Design/Package.php:     * @param callback $beforeMergeCallback
+code/core/Mage/Core/Model/Design/Package.php:     * Before merge css callback function
+code/core/Mage/Core/Model/Design/Package.php:       $contents = preg_replace_callback($cssImport, array($this, '_cssMergerImportCallback'), $contents);
+code/core/Mage/Core/Model/Design/Package.php:       $contents = preg_replace_callback($cssUrl, array($this, '_cssMergerUrlCallback'), $contents);
+code/core/Mage/Core/Model/Design/Package.php:       $this->_callbackFileDir = dirname($file);
+code/core/Mage/Core/Model/Design/Package.php:            $fileDirParts = explode(DS, $this->_callbackFileDir);
+code/core/Mage/Core/Model/Session/Abstract/Varien.php:        call_user_func_array('session_set_cookie_params', $cookieParams);
+code/core/Mage/Core/Model/Config.php:                        $callback = array(
+code/core/Mage/Core/Model/Config.php:                        $callback = array(
+code/core/Mage/Core/Model/Config.php:                        $callback = array($observer->getClassName(), (string)$observer->method);
+code/core/Mage/Core/Model/Config.php:                Mage::addObserver($eventName, $callback, $args, $observer->getName(), $observerClass);
+code/core/Mage/Core/Model/Input/Filter.php:        $value = call_user_func_array(array($helper, $filterData['method']), $filterData['args']);
+code/core/Mage/Core/Model/App.php:                        $this->_callObserverMethod($object, $method, $observer);
+code/core/Mage/Core/Model/App.php:                        $this->_callObserverMethod($object, $method, $observer);
+code/core/Mage/Core/Model/App.php:     * Performs non-existent observer method calls protection
+code/core/Mage/Core/Model/App.php:    protected function _callObserverMethod($object, $method, $observer)
+code/core/Mage/Core/Model/Translate.php:        //$result = @call_user_func_array('sprintf', $args);
+code/core/Mage/Core/Model/Cache.php:        $options['adapter_callback'] = array($this, 'getDbAdapter');
+code/core/Mage/Core/Model/Translate/Inline.php:                'location' => call_user_func($locationCallback, $m, $options),
+code/core/Mage/Core/Model/Translate/Inline.php:                $tagHtml = call_user_func(array($this, $formatCallback), $tagHtml, $tagName, $trArr);
+code/core/Mage/Core/Model/File/Storage/File.php:     * @param  string $callback
+code/core/Mage/Core/Model/File/Storage/File.php:    public function import($data, $callback)
+code/core/Mage/Core/Model/File/Storage/File.php:        if (!is_array($data) || !method_exists($this, $callback)) {
+code/core/Mage/Core/Model/File/Storage/File.php:                $this->$callback($part);
+code/core/Mage/Core/Model/Resource/Resource.php:     * information on main purpose of calling this routine, and even when 'data' column is absent - it won't require
+code/core/Mage/Core/Model/Resource/Transaction.php:     * Run all configured object callbacks
+code/core/Mage/Core/Model/Resource/Transaction.php:        foreach ($this->_beforeCommitCallbacks as $callback) {
+code/core/Mage/Core/Model/Resource/Transaction.php:            call_user_func($callback);
+code/core/Mage/Core/Model/Resource/Transaction.php:     * Add callback function which will be called before commit transactions
+code/core/Mage/Core/Model/Resource/Transaction.php:     * @param callback $callback
+code/core/Mage/Core/Model/Resource/Transaction.php:    public function addCommitCallback($callback)
+code/core/Mage/Core/Model/Resource/Transaction.php:        $this->_beforeCommitCallbacks[] = $callback;
+code/core/Mage/Core/Model/Resource/Abstract.php:     * Array of callbacks subscribed to commit transaction commit
+code/core/Mage/Core/Model/Resource/Abstract.php:     * Subscribe some callback to transaction commit
+code/core/Mage/Core/Model/Resource/Abstract.php:     * @param callback $callback
+code/core/Mage/Core/Model/Resource/Abstract.php:    public function addCommitCallback($callback)
+code/core/Mage/Core/Model/Resource/Abstract.php:        self::$_commitCallbacks[$adapterKey][] = $callback;
+code/core/Mage/Core/Model/Resource/Abstract.php:         * Process after commit callbacks
+code/core/Mage/Core/Model/Resource/Abstract.php:                $callbacks = self::$_commitCallbacks[$adapterKey];
+code/core/Mage/Core/Model/Resource/Abstract.php:                foreach ($callbacks as $index => $callback) {
+code/core/Mage/Core/Model/Resource/Abstract.php:                    call_user_func($callback);
+code/core/Mage/Core/Model/Resource/Session.php:     * cleaning once in x calls
+code/core/Mage/Core/Model/Resource/Iterator.php:     * Walk over records fetched from query one by one using callback function
+code/core/Mage/Core/Model/Resource/Iterator.php:     * @param array|string $callbacks
+code/core/Mage/Core/Model/Resource/Iterator.php:    public function walk($query, array $callbacks, array $args=array(), $adapter = null)
+code/core/Mage/Core/Model/Resource/Iterator.php:            foreach ($callbacks as $callback) {
+code/core/Mage/Core/Model/Resource/Iterator.php:                $result = call_user_func($callback, $args);
+code/core/Mage/Core/Model/Resource/Setup.php:    protected $_callAfterApplyAllUpdates = false;
+code/core/Mage/Core/Model/Resource/Setup.php:     * Currently - dynamically updates column types for foreign keys, when their targets were changed
+code/core/Mage/Core/Model/Resource/Setup.php:        $adapter->setQueryHook(array('object' => $this, 'method' => 'callbackQueryHook'));
+code/core/Mage/Core/Model/Resource/Setup.php:     * Callback function, called on every query adapter processes.
+code/core/Mage/Core/Model/Resource/Setup.php:    public function callbackQueryHook(&$sql, &$bind)
+code/core/Mage/Core/Model/Resource/Setup.php:     * Check call afterApplyAllUpdates method for setup class
+code/core/Mage/Core/Model/Resource/Setup.php:        return $this->_callAfterApplyAllUpdates;
+code/core/Mage/Core/Model/Resource/Setup.php:     * if setup model setted  $_callAfterApplyAllUpdates flag to true
+code/core/Mage/Core/functions.php:    // article/creating-zip-tar-archives-dynamically-php/2/
+code/core/Mage/SalesRule/Model/Validator.php:     * Defines if method Mage_SalesRule_Model_Validator::process() was already called
+code/core/Mage/SalesRule/Model/Validator.php:     * Defines if method Mage_SalesRule_Model_Validator::reset() wasn't called
+code/core/Mage/SalesRule/Model/Observer.php:     * @deprecated process call movet to total model
+code/core/Mage/Paygate/Helper/Data.php:        return call_user_func_array(array($this, '__'), array_merge(array($pattern), $texts));
+code/core/Mage/Oauth/Helper/Data.php:     * Return complete callback URL or boolean FALSE if no callback provided
+code/core/Mage/Oauth/Helper/Data.php:        $callbackUrl = $token->getCallbackUrl();
+code/core/Mage/Oauth/Helper/Data.php:        if (Mage_Oauth_Model_Server::CALLBACK_ESTABLISHED == $callbackUrl) {
+code/core/Mage/Oauth/Helper/Data.php:                $callbackUrl = $consumer->getRejectedCallbackUrl();
+code/core/Mage/Oauth/Helper/Data.php:        $callbackUrl .= (false === strpos($callbackUrl, '?') ? '?' : '&');
+code/core/Mage/Oauth/Helper/Data.php:        $callbackUrl .= 'oauth_token=' . $token->getToken() . '&';
+code/core/Mage/Oauth/Helper/Data.php:        $callbackUrl .= $rejected ? self::QUERY_PARAM_REJECTED . '=1' : 'oauth_verifier=' . $token->getVerifier();
+code/core/Mage/Oauth/Helper/Data.php:        return $callbackUrl;
+code/core/Mage/Oauth/Block/Adminhtml/Oauth/AuthorizedTokens/Grid.php:            'frame_callback' => array($this, 'decorateUserType')
+code/core/Mage/Oauth/Block/Adminhtml/Oauth/AuthorizedTokens/Grid.php:            'frame_callback' => array($this, 'decorateUserId')
+code/core/Mage/Oauth/Block/Adminhtml/Oauth/Consumer/Edit/Form.php:        $fieldset->addField('callback_url', 'text', array(
+code/core/Mage/Oauth/Block/Adminhtml/Oauth/Consumer/Edit/Form.php:            'name'      => 'callback_url',
+code/core/Mage/Oauth/Block/Adminhtml/Oauth/Consumer/Edit/Form.php:        $fieldset->addField('rejected_callback_url', 'text', array(
+code/core/Mage/Oauth/Block/Adminhtml/Oauth/Consumer/Edit/Form.php:            'name'      => 'rejected_callback_url',
+code/core/Mage/Oauth/controllers/Adminhtml/Oauth/AuthorizeController.php:        // call after parent::preDispatch(); to get session started
+code/core/Mage/Oauth/controllers/Adminhtml/Oauth/AuthorizeController.php:            if (($callback = $helper->getFullCallbackUrl($token))) { //false in case of OOB
+code/core/Mage/Oauth/controllers/Adminhtml/Oauth/AuthorizeController.php:                $this->getResponse()->setRedirect($callback . ($simple ? '&simple=1' : ''));
+code/core/Mage/Oauth/controllers/Adminhtml/Oauth/AuthorizeController.php:            if (($callback = $helper->getFullCallbackUrl($token, true))) {
+code/core/Mage/Oauth/controllers/Adminhtml/Oauth/AuthorizeController.php:                $this->_redirectUrl($callback . ($simple ? '&simple=1' : ''));
+code/core/Mage/Oauth/controllers/AuthorizeController.php:            if (($callback = $helper->getFullCallbackUrl($token))) { //false in case of OOB
+code/core/Mage/Oauth/controllers/AuthorizeController.php:                $this->_redirectUrl($callback . ($simple ? '&simple=1' : ''));
+code/core/Mage/Oauth/controllers/AuthorizeController.php:            if (($callback = $helper->getFullCallbackUrl($token, true))) {
+code/core/Mage/Oauth/controllers/AuthorizeController.php:                $this->_redirectUrl($callback . ($simple ? '&simple=1' : ''));
+code/core/Mage/Oauth/Model/Token.php: * @method Mage_Oauth_Model_Token setCallbackUrl() setCallbackUrl(string $callbackUrl)
+code/core/Mage/Oauth/Model/Token.php:     * @param string $callbackUrl Callback URL
+code/core/Mage/Oauth/Model/Token.php:    public function createRequestToken($consumerId, $callbackUrl)
+code/core/Mage/Oauth/Model/Token.php:            'callback_url' => $callbackUrl
+code/core/Mage/Oauth/Model/Server.php:     * Value of callback URL when it is established or if cliaent is unable to receive callbacks
+code/core/Mage/Oauth/Model/Server.php:            if (self::CALLBACK_ESTABLISHED == $this->_protocolParams['oauth_callback']
+code/core/Mage/Oauth/Model/Server.php:                $callbackUrl = $this->_consumer->getCallBackUrl();
+code/core/Mage/Oauth/Model/Server.php:                $callbackUrl = $this->_protocolParams['oauth_callback'];
+code/core/Mage/Oauth/Model/Server.php:            $this->_token->createRequestToken($this->_consumer->getId(), $callbackUrl);
+code/core/Mage/Oauth/Model/Server.php:     * Check for 'oauth_callback' parameter
+code/core/Mage/Oauth/Model/Server.php:        if (!isset($this->_protocolParams['oauth_callback'])) {
+code/core/Mage/Oauth/Model/Server.php:            $this->_throwException('oauth_callback', self::ERR_PARAMETER_ABSENT);
+code/core/Mage/Oauth/Model/Server.php:        if (!is_string($this->_protocolParams['oauth_callback'])) {
+code/core/Mage/Oauth/Model/Server.php:            $this->_throwException('oauth_callback', self::ERR_PARAMETER_REJECTED);
+code/core/Mage/Oauth/Model/Server.php:        if (self::CALLBACK_ESTABLISHED != $this->_protocolParams['oauth_callback']
+code/core/Mage/Oauth/Model/Server.php:            && !Zend_Uri::check($this->_protocolParams['oauth_callback'])
+code/core/Mage/Oauth/Model/Server.php:            $this->_throwException('oauth_callback', self::ERR_PARAMETER_REJECTED);
+code/core/Mage/Oauth/Model/Server.php:            $response = $this->_token->toString() . '&oauth_callback_confirmed=true';
+code/core/Mage/Oauth/Model/Observer.php:     * Redirect customer to callback page after login
+code/core/Mage/Oauth/sql/oauth_setup/install-1.0.0.0.php:    ->addColumn('callback_url', Varien_Db_Ddl_Table::TYPE_VARCHAR, 255, array(), 'Callback URL')
+code/core/Mage/Oauth/sql/oauth_setup/install-1.0.0.0.php:    ->addColumn('rejected_callback_url', Varien_Db_Ddl_Table::TYPE_VARCHAR, 255, array(
+code/core/Mage/Oauth/sql/oauth_setup/install-1.0.0.0.php:        ), 'Rejected callback URL')
+code/core/Mage/Oauth/sql/oauth_setup/install-1.0.0.0.php:    ->addColumn('callback_url', Varien_Db_Ddl_Table::TYPE_TEXT, 255, array(
+code/core/Mage/CatalogSearch/Block/Term.php:        * so no need to explicitly called urlencode for the text
+code/core/Mage/CatalogSearch/Model/Indexer/Fulltext.php:                $event->addNewData('catalogsearch_fulltext_skip_call_event_handler', true);
+code/core/Mage/Adminhtml/Helper/Data.php:     * Decode URL encoded filter value recursive callback method
+code/core/Mage/Adminhtml/Block/Promo/Quote/Edit/Tab/Coupons/Grid.php:            'filter_condition_callback' => array(
+code/core/Mage/Adminhtml/Block/Promo/Widget/Chooser/Daterange.php:     * Automatically attempts to split the string by delimiter
+code/core/Mage/Adminhtml/Block/Page/Menu.php:        $html = preg_replace_callback('#'.Mage_Adminhtml_Model_Url::SECRET_KEY_PARAM_NAME.'/\$([^\/].*)/([^\$].*)\$#', array($this, '_callbackSecretKey'), $html);
+code/core/Mage/Adminhtml/Block/Page/Menu.php:    protected function _callbackSecretKey($match)
+code/core/Mage/Adminhtml/Block/Dashboard/Grids.php:     * To load block statically:
+code/core/Mage/Adminhtml/Block/Dashboard/Grids.php:        // load this active tab statically
+code/core/Mage/Adminhtml/Block/Cms/Page/Grid.php:                'filter_condition_callback'
+code/core/Mage/Adminhtml/Block/Cms/Block/Grid.php:                'filter_condition_callback'
+code/core/Mage/Adminhtml/Block/Report/Filter/Form.php:     * Method will be called after prepareForm and can be used for field values initialization
+code/core/Mage/Adminhtml/Block/Report/Filter/Form.php:     * This method is called before rendering HTML
+code/core/Mage/Adminhtml/Block/Report/Search/Grid.php:     * Retrieve Row Click callback URL
+code/core/Mage/Adminhtml/Block/Sales/Order/Create/Items/Grid.php:     * Return html button which calls configure window
+code/core/Mage/Adminhtml/Block/Sales/Order/Status/Grid.php:            'frame_callback' => array($this, 'decorateState')
+code/core/Mage/Adminhtml/Block/Sales/Order/Status/Grid.php:            'frame_callback' => array($this, 'decorateAction'),
+code/core/Mage/Adminhtml/Block/Checkout/Agreement/Grid.php:                'filter_condition_callback'
+code/core/Mage/Adminhtml/Block/Cache/Grid.php:            'frame_callback' => array($this, 'decorateStatus')
+code/core/Mage/Adminhtml/Block/System/Config/Form.php:                    // determine callback for the source model
+code/core/Mage/Adminhtml/Block/Widget/Form.php:     * This method is called before rendering HTML
+code/core/Mage/Adminhtml/Block/Widget/Form.php:     * Method will be called after prepareForm and can be used for field values initialization
+code/core/Mage/Adminhtml/Block/Widget/Grid/Serializer.php:     * Get serialize data to manage it (called specified method, that return data to manage)
+code/core/Mage/Adminhtml/Block/Widget/Grid/Serializer.php:     * @param string $callback block method  to retrieve data to serialize
+code/core/Mage/Adminhtml/Block/Widget/Grid/Serializer.php:    public function initSerializerBlock($grid, $callback, $hiddenInputName, $reloadParamName = 'entityCollection')
+code/core/Mage/Adminhtml/Block/Widget/Grid/Serializer.php:                 ->setSerializeData($grid->$callback());
+code/core/Mage/Adminhtml/Block/Widget/Grid/Column/Renderer/Abstract.php:            } elseif (is_callable($getter)) {
+code/core/Mage/Adminhtml/Block/Widget/Grid/Column/Renderer/Abstract.php:                return call_user_func($getter, $row);
+code/core/Mage/Adminhtml/Block/Widget/Grid/Column.php:         * if column has determined callback for framing call
+code/core/Mage/Adminhtml/Block/Widget/Grid/Column.php:         * callback_function($renderedValue, $row, $column, $isExport)
+code/core/Mage/Adminhtml/Block/Widget/Grid/Column.php:            $renderedValue = call_user_func($frameCallback, $renderedValue, $row, $this, false);
+code/core/Mage/Adminhtml/Block/Widget/Grid/Column.php:         * if column has determined callback for framing call
+code/core/Mage/Adminhtml/Block/Widget/Grid/Column.php:         * callback_function($renderedValue, $row, $column, $isExport)
+code/core/Mage/Adminhtml/Block/Widget/Grid/Column.php:            $renderedValue = call_user_func($frameCallback, $renderedValue, $row, $this, true);
+code/core/Mage/Adminhtml/Block/Widget/Container.php:     * So called "container controller" to specify group of blocks participating in some action
+code/core/Mage/Adminhtml/Block/Widget/Grid.php:                call_user_func($column->getFilterConditionCallback(), $this->getCollection(), $column);
+code/core/Mage/Adminhtml/Block/Widget/Grid.php:     * Decode URL encoded filter value recursive callback method
+code/core/Mage/Adminhtml/Block/Widget/Grid.php:     * Iterate collection and call callback method per item
+code/core/Mage/Adminhtml/Block/Widget/Grid.php:     * For callback method first argument always is item object
+code/core/Mage/Adminhtml/Block/Widget/Grid.php:     * @param string $callback
+code/core/Mage/Adminhtml/Block/Widget/Grid.php:     * @param array $args additional arguments for callback method
+code/core/Mage/Adminhtml/Block/Widget/Grid.php:    public function _exportIterateCollection($callback, array $args)
+code/core/Mage/Adminhtml/Block/Widget/Grid.php:                call_user_func_array(array($this, $callback), array_merge(array($item), $args));
+code/core/Mage/Adminhtml/Block/Catalog/Search/Grid.php:     * Retrieve Row Click callback URL
+code/core/Mage/Adminhtml/Block/Catalog/Product/Helper/Form/Price.php:         * getEntityAttribute - use __call
+code/core/Mage/Adminhtml/Block/Catalog/Product/Edit/Tab/Price/Group.php:     * Sort group price values callback method
+code/core/Mage/Adminhtml/Block/Catalog/Product/Edit/Tab/Price/Tier.php:     * Sort tier price values callback method
+code/core/Mage/Adminhtml/controllers/Cms/WysiwygController.php:     * Template directives callback
+code/core/Mage/Adminhtml/controllers/Sales/TransactionsController.php:     * Check currently called action by permissions for current user
+code/core/Mage/Adminhtml/controllers/Sales/Billing/AgreementController.php:     * Check currently called action by permissions for current user
+code/core/Mage/Adminhtml/controllers/TagController.php:     * Check currently called action by permissions for current user
+code/core/Mage/Adminhtml/controllers/Catalog/ProductController.php:            Mage::helper('catalog')->__('Please click on the Close Window button if it is not closed automatically.')
+code/core/Mage/Adminhtml/controllers/Catalog/ProductController.php:            Mage::helper('catalog')->__('Please click on the Close Window button if it is not closed automatically.')
+code/core/Mage/Adminhtml/Model/System/Config/Backend/File.php:     * Validation callback for checking max file size
+code/core/Mage/CatalogRule/Model/Rule.php:                    array(array($this, 'callbackValidateProduct')),
+code/core/Mage/CatalogRule/Model/Rule.php:    public function callbackValidateProduct($args)
+code/core/Mage/CatalogRule/Model/Observer.php:     * This method is called from cron process, cron is working in UTC time and
+code/core/Mage/Cron/Model/Observer.php:                        Mage::throwException(Mage::helper('cron')->__('Invalid callback: %s::%s does not exist', $run[1], $run[2]));
+code/core/Mage/Cron/Model/Observer.php:                    $callback = array($model, $run[2]);
+code/core/Mage/Cron/Model/Observer.php:                if (empty($callback)) {
+code/core/Mage/Cron/Model/Observer.php:                    Mage::throwException(Mage::helper('cron')->__('No callbacks found'));
+code/core/Mage/Cron/Model/Observer.php:                call_user_func_array($callback, $arguments);
+code/core/Mage/Persistent/Model/Observer.php:        if (is_callable(array($controllerAction, 'redirectLogin'))) {
+code/core/Mage/Page/Block/Html/Head.php:     * Will attempt to merge into 1 directive, if merging callback is provided. In this case it will generate
+code/core/Mage/Page/Block/Html/Head.php:     * The merger callback is responsible for checking whether files exist, merging them and giving result URL
+code/core/Mage/Page/Block/Html/Head.php:     * @param callback $mergeCallback
+code/core/Mage/Page/Block/Html/Head.php:        if ($mergeCallback && !is_callable($mergeCallback)) {
+code/core/Mage/Page/Block/Html/Head.php:                $mergedUrl = call_user_func($mergeCallback, $rows);
+code/core/Mage/Cms/data/cms_setup/data-upgrade-1.6.0.0.0-1.6.0.0.1.php:        We may periodically send promotional emails about new products, special offers or other information which we
+code/core/Mage/Cms/data/cms_setup/data-upgrade-1.6.0.0.0-1.6.0.0.1.php:    Most web browsers automatically accept cookies, but you can usually modify your browser setting
+code/core/Mage/Cms/data/cms_setup/data-install-1.6.0.0.php:        'content'       => "<div class=\"std\">\r\n    <ul class=\"messages\">\r\n        <li class=\"notice-msg\">\r\n            <ul>\r\n                <li>Please enable cookies in your web browser to continue.</li>\r\n            </ul>\r\n        </li>\r\n    </ul>\r\n    <div class=\"page-title\">\r\n        <h1><a name=\"top\"></a>What are Cookies?</h1>\r\n    </div>\r\n    <p>Cookies are short pieces of data that are sent to your computer when you visit a website. On later visits, this data is then returned to that website. Cookies allow us to recognize you automatically whenever you visit our site so that we can personalize your experience and provide you with better service. We also use cookies (and similar browser data, such as Flash cookies) for fraud prevention and other purposes. If your web browser is set to refuse cookies from our website, you will not be able to complete a purchase or take advantage of certain features of our website, such as storing items in your Shopping Cart or receiving personalized recommendations. As a result, we strongly encourage you to configure your web browser to accept cookies from our website.</p>\r\n    <h2 class=\"subtitle\">Enabling Cookies</h2>\r\n    <ul class=\"disc\">\r\n        <li><a href=\"#ie7\">Internet Explorer 7.x</a></li>\r\n        <li><a href=\"#ie6\">Internet Explorer 6.x</a></li>\r\n        <li><a href=\"#firefox\">Mozilla/Firefox</a></li>\r\n        <li><a href=\"#opera\">Opera 7.x</a></li>\r\n    </ul>\r\n    <h3><a name=\"ie7\"></a>Internet Explorer 7.x</h3>\r\n    <ol>\r\n        <li>\r\n            <p>Start Internet Explorer</p>\r\n        </li>\r\n        <li>\r\n            <p>Under the <strong>Tools</strong> menu, click <strong>Internet Options</strong></p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie7-1.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click the <strong>Privacy</strong> tab</p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie7-2.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click the <strong>Advanced</strong> button</p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie7-3.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Put a check mark in the box for <strong>Override Automatic Cookie Handling</strong>, put another check mark in the <strong>Always accept session cookies </strong>box</p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie7-4.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click <strong>OK</strong></p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie7-5.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click <strong>OK</strong></p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie7-6.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Restart Internet Explore</p>\r\n        </li>\r\n    </ol>\r\n    <p class=\"a-top\"><a href=\"#top\">Back to Top</a></p>\r\n    <h3><a name=\"ie6\"></a>Internet Explorer 6.x</h3>\r\n    <ol>\r\n        <li>\r\n            <p>Select <strong>Internet Options</strong> from the Tools menu</p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie6-1.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Privacy</strong> tab</p>\r\n        </li>\r\n        <li>\r\n            <p>Click the <strong>Default</strong> button (or manually slide the bar down to <strong>Medium</strong>) under <strong>Settings</strong>. Click <strong>OK</strong></p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie6-2.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n    </ol>\r\n    <p class=\"a-top\"><a href=\"#top\">Back to Top</a></p>\r\n    <h3><a name=\"firefox\"></a>Mozilla/Firefox</h3>\r\n    <ol>\r\n        <li>\r\n            <p>Click on the <strong>Tools</strong>-menu in Mozilla</p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Options...</strong> item in the menu - a new window open</p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Privacy</strong> selection in the left part of the window. (See image below)</p>\r\n            <p><img src=\"{{skin url=\"images/cookies/firefox.png\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Expand the <strong>Cookies</strong> section</p>\r\n        </li>\r\n        <li>\r\n            <p>Check the <strong>Enable cookies</strong> and <strong>Accept cookies normally</strong> checkboxes</p>\r\n        </li>\r\n        <li>\r\n            <p>Save changes by clicking <strong>Ok</strong>.</p>\r\n        </li>\r\n    </ol>\r\n    <p class=\"a-top\"><a href=\"#top\">Back to Top</a></p>\r\n    <h3><a name=\"opera\"></a>Opera 7.x</h3>\r\n    <ol>\r\n        <li>\r\n            <p>Click on the <strong>Tools</strong> menu in Opera</p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Preferences...</strong> item in the menu - a new window open</p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Privacy</strong> selection near the bottom left of the window. (See image below)</p>\r\n            <p><img src=\"{{skin url=\"images/cookies/opera.png\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>The <strong>Enable cookies</strong> checkbox must be checked, and <strong>Accept all cookies</strong> should be selected in the &quot;<strong>Normal cookies</strong>&quot; drop-down</p>\r\n        </li>\r\n        <li>\r\n            <p>Save changes by clicking <strong>Ok</strong></p>\r\n        </li>\r\n    </ol>\r\n    <p class=\"a-top\"><a href=\"#top\">Back to Top</a></p>\r\n</div>\r\n",
+code/core/Mage/Cms/sql/cms_setup/mysql4-upgrade-0.7.7-0.7.8.php:    'content'           => "<div class=\"std\">\r\n    <ul class=\"messages\">\r\n        <li class=\"notice-msg\">\r\n            <ul>\r\n                <li>Please enable cookies in your web browser to continue.</li>\r\n            </ul>\r\n        </li>\r\n    </ul>\r\n    <div class=\"page-title\">\r\n        <h1><a name=\"top\"></a>What are Cookies?</h1>\r\n    </div>\r\n    <p>Cookies are short pieces of data that are sent to your computer when you visit a website. On later visits, this data is then returned to that website. Cookies allow us to recognize you automatically whenever you visit our site so that we can personalize your experience and provide you with better service. We also use cookies (and similar browser data, such as Flash cookies) for fraud prevention and other purposes. If your web browser is set to refuse cookies from our website, you will not be able to complete a purchase or take advantage of certain features of our website, such as storing items in your Shopping Cart or receiving personalized recommendations. As a result, we strongly encourage you to configure your web browser to accept cookies from our website.</p>\r\n    <h2 class=\"subtitle\">Enabling Cookies</h2>\r\n    <ul class=\"disc\">\r\n        <li><a href=\"#ie7\">Internet Explorer 7.x</a></li>\r\n        <li><a href=\"#ie6\">Internet Explorer 6.x</a></li>\r\n        <li><a href=\"#firefox\">Mozilla/Firefox</a></li>\r\n        <li><a href=\"#opera\">Opera 7.x</a></li>\r\n    </ul>\r\n    <h3><a name=\"ie7\"></a>Internet Explorer 7.x</h3>\r\n    <ol>\r\n        <li>\r\n            <p>Start Internet Explorer</p>\r\n        </li>\r\n        <li>\r\n            <p>Under the <strong>Tools</strong> menu, click <strong>Internet Options</strong></p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie7-1.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click the <strong>Privacy</strong> tab</p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie7-2.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click the <strong>Advanced</strong> button</p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie7-3.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Put a check mark in the box for <strong>Override Automatic Cookie Handling</strong>, put another check mark in the <strong>Always accept session cookies </strong>box</p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie7-4.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click <strong>OK</strong></p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie7-5.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click <strong>OK</strong></p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie7-6.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Restart Internet Explore</p>\r\n        </li>\r\n    </ol>\r\n    <p class=\"a-top\"><a href=\"#top\">Back to Top</a></p>\r\n    <h3><a name=\"ie6\"></a>Internet Explorer 6.x</h3>\r\n    <ol>\r\n        <li>\r\n            <p>Select <strong>Internet Options</strong> from the Tools menu</p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie6-1.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Privacy</strong> tab</p>\r\n        </li>\r\n        <li>\r\n            <p>Click the <strong>Default</strong> button (or manually slide the bar down to <strong>Medium</strong>) under <strong>Settings</strong>. Click <strong>OK</strong></p>\r\n            <p><img src=\"{{skin url=\"images/cookies/ie6-2.gif\"}}\" alt=\"\" /></p>\r\n        </li>\r\n    </ol>\r\n    <p class=\"a-top\"><a href=\"#top\">Back to Top</a></p>\r\n    <h3><a name=\"firefox\"></a>Mozilla/Firefox</h3>\r\n    <ol>\r\n        <li>\r\n            <p>Click on the <strong>Tools</strong>-menu in Mozilla</p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Options...</strong> item in the menu - a new window open</p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Privacy</strong> selection in the left part of the window. (See image below)</p>\r\n            <p><img src=\"{{skin url=\"images/cookies/firefox.png\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Expand the <strong>Cookies</strong> section</p>\r\n        </li>\r\n        <li>\r\n            <p>Check the <strong>Enable cookies</strong> and <strong>Accept cookies normally</strong> checkboxes</p>\r\n        </li>\r\n        <li>\r\n            <p>Save changes by clicking <strong>Ok</strong>.</p>\r\n        </li>\r\n    </ol>\r\n    <p class=\"a-top\"><a href=\"#top\">Back to Top</a></p>\r\n    <h3><a name=\"opera\"></a>Opera 7.x</h3>\r\n    <ol>\r\n        <li>\r\n            <p>Click on the <strong>Tools</strong> menu in Opera</p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Preferences...</strong> item in the menu - a new window open</p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Privacy</strong> selection near the bottom left of the window. (See image below)</p>\r\n            <p><img src=\"{{skin url=\"images/cookies/opera.png\"}}\" alt=\"\" /></p>\r\n        </li>\r\n        <li>\r\n            <p>The <strong>Enable cookies</strong> checkbox must be checked, and <strong>Accept all cookies</strong> should be selected in the &quot;<strong>Normal cookies</strong>&quot; drop-down</p>\r\n        </li>\r\n        <li>\r\n            <p>Save changes by clicking <strong>Ok</strong></p>\r\n        </li>\r\n    </ol>\r\n    <p class=\"a-top\"><a href=\"#top\">Back to Top</a></p>\r\n</div>\r\n",
+code/core/Mage/Sales/Model/Recurring/Profile.php:     * Automatically set "unknown" state if not defined
+code/core/Mage/Sales/Model/Order.php:     * Adds the object to the status history collection, which is automatically saved when the order is saved.
+code/core/Mage/Sales/Model/Order/Payment.php:     * Transactions registry to spare resource calls
+code/core/Mage/Sales/Model/Order/Payment.php:     * This method is supposed to be called only when order is placed
+code/core/Mage/Sales/Model/Order/Payment.php:     * Requires an invoice. If there is no invoice specified, will automatically prepare an invoice for order
+code/core/Mage/Sales/Model/Order/Payment.php:     * Creates an invoice automatically if the amount covers the order base grand total completely
+code/core/Mage/Sales/Model/Order/Payment.php:        // call refund from gateway if required
+code/core/Mage/Sales/Model/Order/Payment.php:            ->setAutomaticallyCreated(true)
+code/core/Mage/Sales/Model/Order/Payment.php:            ->addComment(Mage::helper('sales')->__('Credit memo has been created automatically'))
+code/core/Mage/Sales/Model/Order/Invoice/Total/Discount.php:         * So basically if we have invoice with positive discount and it
+code/core/Mage/Sales/Model/Order/Invoice.php:     * Whether the pay() was called
+code/core/Mage/Sales/Model/Order/Invoice.php:     * Whether pay() method was called (whether order and payment totals were updated)
+code/core/Mage/Sales/Model/Order/Payment/Transaction.php:     * Basically checks whether the authorization exists and it is not affected by a capture or void
+code/core/Mage/Sales/Model/Status/List.php:     * @param Varien_Object|null $additionalData Any additional data, that caller would like to store
+code/core/Mage/Sales/Model/Quote/Payment.php:     * Method calls quote totals collect because payment method availability
+code/core/Mage/Sales/Model/Quote/Item.php:     * Also automatically removes error-flag from oneself.
+code/core/Mage/Sales/Model/Quote/Item.php:     * Automatically sets error flag.
+code/core/Mage/Sales/Model/Quote/Item.php:     * @param Varien_Object|null $additionalData Any additional data, that caller would like to store
+code/core/Mage/Sales/Model/Quote/Address.php:     * Sort rates recursive callback
+code/core/Mage/Sales/Model/Quote/Address.php:         * need to call getStreet with -1
+code/core/Mage/Sales/Model/Entity/Quote/Address.php:            if (is_callable(array($backend, 'collectTotals'))) {
+code/core/Mage/Sales/Model/Entity/Quote/Address.php:            if (is_callable(array($frontend, 'fetchTotals'))) {
+code/core/Mage/Sales/Model/Quote.php:         * or a mixture of nominal and non-nominal items, although technically possible.
+code/core/Mage/Sales/Model/Quote.php:         * It makes logically impossible to make the process of the purchase failsafe.
+code/core/Mage/Sales/Model/Quote.php:     * Basically it can hold
+code/core/Mage/Sales/Model/Quote.php:     * Also automatically removes error-flag from oneself.
+code/core/Mage/Sales/Model/Quote.php:     * Automatically sets error flag.
+code/core/Mage/Sales/Model/Quote.php:     * @param Varien_Object|null $additionalData Any additional data, that caller would like to store
+code/core/Mage/Sales/Model/Resource/Report/Bestsellers/Collection.php:            // apply date boundaries (before calling $this->_applyDateRangeFilter())
+code/core/Mage/Sales/sql/sales_setup/mysql4-install-1.4.0.0.php:        call_user_func_array(array($installer->getConnection(), 'addConstraint'), $constraint);
+code/core/Mage/Sales/sql/sales_setup/mysql4-upgrade-0.6.2-0.7.0.php:UPDATE {$this->getTable('core_email_template')} set template_text='<style type=\"text/css\">\r\nbody,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }\r\n</style>\r\n\r\n<div style=\"font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;\">\r\n            <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"98%\" style=\"margin-top:10px; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;\"\">\r\n             <tr>\r\n                    <td align=\"center\" valign=\"top\">\r\n                    <!-- [ header starts here] -->\r\n                      <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"650\">\r\n                          <tr>\r\n                                <td valign=\"top\">\r\n                                 <a href=\"{{store url=\"\"}}\"><img src=\"{{skin url=\"images/logo_email.gif\"}}\" alt=\"Magento\"  style=\"margin-bottom:10px;\" border=\"0\"/></a></td>\r\n                           </tr>\r\n                       </table>\r\n\r\n                    <!-- [ middle starts here] -->\r\n                      <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"650\">\r\n                          <tr>\r\n                                <td valign=\"top\">\r\n                             <p><strong>Hello {{var billing.name}}</strong>,<br/>\r\n                                Thank you for your order from Magento Demo Store. Once your package ships we will send an email with a link to track your order. You can check the status of your order by <a href=\"{{store url=\"customer/account/\"}}\" style=\"color:#1E7EC8;\">logging into your account</a>. If you have any questions about your order please contact us at <a href=\"mailto:dummyemail@magentocommerce.com\" style=\"color:#1E7EC8;\">dummyemail@magentocommerce.com</a> or call us at <span class=\"nobr\">(555) 555-0123</span> Monday - Friday, 8am - 5pm PST.</p>\r\n <p>Your order confirmation is below. Thank you again for your business.</p>\r\n                               \r\n                                <h3 style=\"border-bottom:2px solid #eee; font-size:1.05em; padding-bottom:1px; \">Your Order #{{var order.increment_id}} <small>(placed on {{var order.getCreatedAtFormated(\'long\')}})</small></h3>\r\n                              <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\">\r\n                                 <thead>\r\n                                 <tr>\r\n                                        <th align=\"left\" width=\"48.5%\" bgcolor=\"#d9e5ee\" style=\"padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;\">Billing \r\n                                       Information:</th>\r\n                                       <th width=\"3%\"></th>\r\n                                      <th align=\"left\" width=\"48.5%\" bgcolor=\"#d9e5ee\" style=\"padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;\">Payment \r\n                                       Method:</th>\r\n                                    </tr>\r\n                                   </thead>\r\n                                    <tbody>\r\n                                 <tr>\r\n                                        <td valign=\"top\" style=\"padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;\">{{var order.billing_address.getFormated(\'html\')}}</td>\r\n                                      <td>&nbsp;</td>\r\n                                     <td valign=\"top\" style=\"padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;\"> {{var payment_html}}</td>\r\n                                 </tr>\r\n                                   </tbody>\r\n                                </table><br/>\r\n                                               <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\">\r\n                                 <thead>\r\n                                 <tr>\r\n                                        <th align=\"left\" width=\"48.5%\" bgcolor=\"#d9e5ee\" style=\"padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;\">Shipping \r\n                                      Information:</th>\r\n                                       <th width=\"3%\"></th>\r\n                                      <th align=\"left\" width=\"48.5%\" bgcolor=\"#d9e5ee\" style=\"padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;\">Shipping \r\n                                      Method:</th>\r\n                                    </tr>\r\n                                   </thead>\r\n                                    <tbody>\r\n                                 <tr>\r\n                                        <td valign=\"top\" style=\"padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;\">{{var order.shipping_address.getFormated(\'html\')}}</td>\r\n                                     <td>&nbsp;</td>\r\n                                     <td valign=\"top\" style=\"padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;\">{{var order.shipping_description}}</td>\r\n                                   </tr>\r\n                                   </tbody>\r\n                                </table><br/>\r\n\r\n{{var items_html}}<br/>\r\n      {{var order.getEmailCustomerNote()}}                          \r\n                                <p>Thank you again,<br/><strong>Magento Demo Store</strong></p>\r\n\r\n\r\n                             </td>\r\n                           </tr>\r\n                       </table>\r\n                    \r\n                    </td>\r\n               </tr>\r\n           </table>\r\n            </div>\r\n' WHERE template_code='New order (HTML)';
+code/core/Mage/Sales/sql/sales_setup/mysql4-upgrade-1.3.99-1.4.0.0.php:        call_user_func_array(array($installer->getConnection(), 'addConstraint'), $constraint);
+code/core/Mage/Sales/sql/sales_setup/mysql4-upgrade-0.8.3-0.8.4.php:UPDATE {$this->getTable('core_email_template')} set template_text='<style type=\"text/css\">\r\nbody,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }\r\n</style>\r\n\r\n<div style=\"font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;\">\r\n            <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"98%\" style=\"margin-top:10px; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;\"\">\r\n             <tr>\r\n                    <td align=\"center\" valign=\"top\">\r\n                    <!-- [ header starts here] -->\r\n                      <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"650\">\r\n                          <tr>\r\n                                <td valign=\"top\">\r\n                                 <a href=\"{{store url=\"\"}}\"><img src=\"{{skin url=\"images/logo_email.gif\"}}\" alt=\"Magento\"  style=\"margin-bottom:10px;\" border=\"0\"/></a></td>\r\n                           </tr>\r\n                       </table>\r\n\r\n                    <!-- [ middle starts here] -->\r\n                      <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"650\">\r\n                          <tr>\r\n                                <td valign=\"top\">\r\n                             <p><strong>Hello {{var billing.name}}</strong>,<br/>\r\n                                Thank you for your order from Magento Demo Store. Once your package ships we will send an email with a link to track your order.{{depend order.getCustomerId()}} You can check the status of your order by <a href=\"{{store url=\"customer/account/\"}}\" style=\"color:#1E7EC8;\">logging into your account</a>.{{/depend}} If you have any questions about your order please contact us at <a href=\"mailto:dummyemail@magentocommerce.com\" style=\"color:#1E7EC8;\">dummyemail@magentocommerce.com</a> or call us at <span class=\"nobr\">(555) 555-0123</span> Monday - Friday, 8am - 5pm PST.</p>\r\n <p>Your order confirmation is below. Thank you again for your business.</p>\r\n                               \r\n                                <h3 style=\"border-bottom:2px solid #eee; font-size:1.05em; padding-bottom:1px; \">Your Order #{{var order.increment_id}} <small>(placed on {{var order.getCreatedAtFormated(\'long\')}})</small></h3>\r\n                              <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\">\r\n                                 <thead>\r\n                                 <tr>\r\n                                        <th align=\"left\" width=\"48.5%\" bgcolor=\"#d9e5ee\" style=\"padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;\">Billing \r\n                                       Information:</th>\r\n                                       <th width=\"3%\"></th>\r\n                                      <th align=\"left\" width=\"48.5%\" bgcolor=\"#d9e5ee\" style=\"padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;\">Payment \r\n                                       Method:</th>\r\n                                    </tr>\r\n                                   </thead>\r\n                                    <tbody>\r\n                                 <tr>\r\n                                        <td valign=\"top\" style=\"padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;\">{{var order.billing_address.format(\'html\')}}</td>\r\n                                      <td>&nbsp;</td>\r\n                                     <td valign=\"top\" style=\"padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;\"> {{var payment_html}}</td>\r\n                                 </tr>\r\n                                   </tbody>\r\n                                </table><br/>\r\n                                               <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\">\r\n                                 <thead>\r\n                                 <tr>\r\n                                        <th align=\"left\" width=\"48.5%\" bgcolor=\"#d9e5ee\" style=\"padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;\">Shipping \r\n                                      Information:</th>\r\n                                       <th width=\"3%\"></th>\r\n                                      <th align=\"left\" width=\"48.5%\" bgcolor=\"#d9e5ee\" style=\"padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;\">Shipping \r\n                                      Method:</th>\r\n                                    </tr>\r\n                                   </thead>\r\n                                    <tbody>\r\n                                 <tr>\r\n                                        <td valign=\"top\" style=\"padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;\">{{var order.shipping_address.format(\'html\')}}</td>\r\n                                     <td>&nbsp;</td>\r\n                                     <td valign=\"top\" style=\"padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;\">{{var order.shipping_description}}</td>\r\n                                   </tr>\r\n                                   </tbody>\r\n                                </table><br/>\r\n\r\n{{var items_html}}<br/>\r\n      {{var order.getEmailCustomerNote()}}                          \r\n                                <p>Thank you again,<br/><strong>Magento Demo Store</strong></p>\r\n\r\n\r\n                             </td>\r\n                           </tr>\r\n                       </table>\r\n                    \r\n                    </td>\r\n               </tr>\r\n           </table>\r\n            </div>\r\n' WHERE template_code='New order (HTML)';
+code/core/Mage/Sales/sql/sales_setup/mysql4-upgrade-0.7.2-0.7.3.php:UPDATE {$this->getTable('core_email_template')} set template_text='<style type=\"text/css\">\r\nbody,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }\r\n</style>\r\n\r\n<div style=\"font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;\">\r\n            <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"98%\" style=\"margin-top:10px; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;\"\">\r\n             <tr>\r\n                    <td align=\"center\" valign=\"top\">\r\n                    <!-- [ header starts here] -->\r\n                      <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"650\">\r\n                          <tr>\r\n                                <td valign=\"top\">\r\n                                 <a href=\"{{store url=\"\"}}\"><img src=\"{{skin url=\"images/logo_email.gif\"}}\" alt=\"Magento\"  style=\"margin-bottom:10px;\" border=\"0\"/></a></td>\r\n                           </tr>\r\n                       </table>\r\n\r\n                    <!-- [ middle starts here] -->\r\n                      <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"650\">\r\n                          <tr>\r\n                                <td valign=\"top\">\r\n                             <p><strong>Hello {{var billing.name}}</strong>,<br/>\r\n                                Thank you for your order from Magento Demo Store. Once your package ships we will send an email with a link to track your order. You can check the status of your order by <a href=\"{{store url=\"customer/account/\"}}\" style=\"color:#1E7EC8;\">logging into your account</a>. If you have any questions about your order please contact us at <a href=\"mailto:dummyemail@magentocommerce.com\" style=\"color:#1E7EC8;\">dummyemail@magentocommerce.com</a> or call us at <span class=\"nobr\">(555) 555-0123</span> Monday - Friday, 8am - 5pm PST.</p>\r\n <p>Your order confirmation is below. Thank you again for your business.</p>\r\n                               \r\n                                <h3 style=\"border-bottom:2px solid #eee; font-size:1.05em; padding-bottom:1px; \">Your Order #{{var order.increment_id}} <small>(placed on {{var order.getCreatedAtFormated(\'long\')}})</small></h3>\r\n                              <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\">\r\n                                 <thead>\r\n                                 <tr>\r\n                                        <th align=\"left\" width=\"48.5%\" bgcolor=\"#d9e5ee\" style=\"padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;\">Billing \r\n                                       Information:</th>\r\n                                       <th width=\"3%\"></th>\r\n                                      <th align=\"left\" width=\"48.5%\" bgcolor=\"#d9e5ee\" style=\"padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;\">Payment \r\n                                       Method:</th>\r\n                                    </tr>\r\n                                   </thead>\r\n                                    <tbody>\r\n                                 <tr>\r\n                                        <td valign=\"top\" style=\"padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;\">{{var order.billing_address.format(\'html\')}}</td>\r\n                                      <td>&nbsp;</td>\r\n                                     <td valign=\"top\" style=\"padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;\"> {{var payment_html}}</td>\r\n                                 </tr>\r\n                                   </tbody>\r\n                                </table><br/>\r\n                                               <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\">\r\n                                 <thead>\r\n                                 <tr>\r\n                                        <th align=\"left\" width=\"48.5%\" bgcolor=\"#d9e5ee\" style=\"padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;\">Shipping \r\n                                      Information:</th>\r\n                                       <th width=\"3%\"></th>\r\n                                      <th align=\"left\" width=\"48.5%\" bgcolor=\"#d9e5ee\" style=\"padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;\">Shipping \r\n                                      Method:</th>\r\n                                    </tr>\r\n                                   </thead>\r\n                                    <tbody>\r\n                                 <tr>\r\n                                        <td valign=\"top\" style=\"padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;\">{{var order.shipping_address.format(\'html\')}}</td>\r\n                                     <td>&nbsp;</td>\r\n                                     <td valign=\"top\" style=\"padding:7px 9px 9px 9px; border:1px solid #bebcb7; border-top:0; background:#f8f7f5;\">{{var order.shipping_description}}</td>\r\n                                   </tr>\r\n                                   </tbody>\r\n                                </table><br/>\r\n\r\n{{var items_html}}<br/>\r\n      {{var order.getEmailCustomerNote()}}                          \r\n                                <p>Thank you again,<br/><strong>Magento Demo Store</strong></p>\r\n\r\n\r\n                             </td>\r\n                           </tr>\r\n                       </table>\r\n                    \r\n                    </td>\r\n               </tr>\r\n           </table>\r\n            </div>\r\n' WHERE template_code='New order (HTML)';
+code/core/Mage/Review/Block/Helper.php:     * It should be called before getSummaryHtml()
+code/core/Mage/Review/Model/Resource/Review.php:     * Better to call this method in transaction, because operation performed on two separated tables
+code/core/Mage/PaypalUk/Model/Api/Nvp.php:        // each call
+code/core/Mage/PaypalUk/Model/Api/Nvp.php:     * Request map for each API call
+code/core/Mage/PaypalUk/Model/Api/Nvp.php:     * Payment information response specifically to be collected after some requests
+code/core/Mage/PaypalUk/Model/Api/Nvp.php:     * Catch success calls and collect warnings
+code/core/Mage/PaypalUk/Model/Api/Nvp.php:        $this->_callWarnings = array();
+code/core/Mage/PaypalUk/Model/Api/Nvp.php:                $this->_callWarnings[] = $response['RESPMSG'];
+code/core/Mage/PaypalUk/Model/Api/Nvp.php:    function callGetTransactionDetails()
+code/core/Mage/PaypalUk/Model/Api/Nvp.php:     * Return each call request fields
+code/core/Mage/Rss/Block/Wishlist.php:                Mage::dispatchEvent('rss_wishlist_xml_callback', $args);
+code/core/Mage/Rss/Block/Catalog/Tag.php:        Mage::dispatchEvent('rss_catalog_tagged_item_xml_callback', $args);
+code/core/Mage/Rss/Block/Catalog/Category.php:        Mage::dispatchEvent('rss_catalog_category_xml_callback', $args);
+code/core/Mage/Rss/Block/Catalog/Special.php:        Mage::dispatchEvent('rss_catalog_special_xml_callback', $args);
+code/core/Mage/Rss/Block/Catalog/New.php:        Mage::dispatchEvent('rss_catalog_new_xml_callback', $args);
+code/core/Mage/Usa/etc/wsdl/FedEx/TrackService_v5.wsdl:              <xs:documentation>Contains the CustomerTransactionDetail that is echoed back to the caller for matching requests and replies and a Localization element for defining the language/translation used in the reply data.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/TrackService_v5.wsdl:              <xs:documentation>Contains the CustomerTransactionDetail that is echoed back to the caller for matching requests and replies and a Localization element for defining the language/translation used in the reply data.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/TrackService_v5.wsdl:              <xs:documentation>Contains the CustomerTransactionDetail that is echoed back to the caller for matching requests and replies and a Localization element for defining the language/translation used in the reply data.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/TrackService_v5.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/TrackService_v5.wsdl:              <xs:documentation>Contains the CustomerTransactionDetail that is echoed back to the caller for matching requests and replies and a Localization element for defining the language/translation used in the reply data.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/TrackService_v5.wsdl:          <xs:documentation>Descriptive data that governs data payload language/translations.  The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/TrackService_v5.wsdl:          <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v10.wsdl:              <xs:documentation>Shows the specific combination of service options combined with the service type that produced this committment in the set returned to the caller.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v10.wsdl:              <xs:documentation>Shows the specific combination of service options combined with the service type that produced this committment in the set returned to the caller.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v10.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v10.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v10.wsdl:              <xs:documentation>Allows the caller to specify that the transit time and commit data are to be returned in the reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v10.wsdl:              <xs:documentation>Provides additional detail on how the customer has physically packaged this item. As of June 2009, required for packages moving under international and SmartPost services.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v10.wsdl:          <xs:documentation>Specifies how to return a shipping document to the caller.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v10.wsdl:          <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v10.wsdl:          <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Descriptive data that governs data payload language/translations. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>The descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Provides additional detail on how the customer has physically packaged this item. As of June 2009, required for packages moving under international and SmartPost services.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:          <xs:documentation>Specifies how to return a shipping document to the caller.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:          <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v9.wsdl:          <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v9.wsdl:              <xs:documentation>Shows the specific combination of service options combined with the service type that produced this committment in the set returned to the caller.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v9.wsdl:              <xs:documentation>Shows the specific combination of service options combined with the service type that produced this committment in the set returned to the caller.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v9.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v9.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v9.wsdl:              <xs:documentation>Allows the caller to specify that the transit time and commit data are to be returned in the reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v9.wsdl:              <xs:documentation>Provides additional detail on how the customer has physically packaged this item. As of June 2009, required for packages moving under international and SmartPost services.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v9.wsdl:          <xs:documentation>Specifies how to return a shipping document to the caller.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v9.wsdl:          <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/RateService_v9.wsdl:          <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Descriptive data that governs data payload language/translations. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>The descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Provides additional detail on how the customer has physically packaged this item. As of June 2009, required for packages moving under international and SmartPost services.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:          <xs:documentation>Specifies how to return a shipping document to the caller.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:          <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Descriptive data for this customer transaction. The TransactionDetail from the request is echoed back to the caller in the corresponding reply.</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:              <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/Usa/etc/wsdl/FedEx/ShipService_v10.wsdl:          <xs:documentation>Identifies the version/level of a service operation expected by a caller (in each request) and performed by the callee (in each reply).</xs:documentation>
+code/core/Mage/CatalogInventory/etc/api2.xml:                    <stock_status_changed_auto>Automatically Return Credit Memo Item to Stock</stock_status_changed_auto>
+code/core/Mage/CatalogInventory/etc/system.xml:                            <label>Automatically Return Credit Memo Item to Stock</label>
+code/core/Mage/CatalogInventory/Model/Indexer/Stock.php:                $event->addNewData('cataloginventory_stock_skip_call_event_handler', true);
+code/core/Mage/CatalogInventory/Model/Indexer/Stock.php:        if (empty($data['cataloginventory_stock_skip_call_event_handler'])) {
+code/core/Mage/CatalogInventory/Model/Indexer/Stock.php:            $this->callEventHandler($event);
+code/core/Mage/CatalogInventory/Model/Stock.php:                    ->setStockStatusChangedAutomaticallyFlag(true);
+code/core/Mage/CatalogInventory/Model/Stock/Item.php: * @method int getStockStatusChangedAutomatically()
+code/core/Mage/CatalogInventory/Model/Stock/Item.php: * @method Mage_CatalogInventory_Model_Stock_Item setStockStatusChangedAutomatically(int $value)
+code/core/Mage/CatalogInventory/Model/Stock/Item.php:            'stock_status_changed_automatically' => 'stock_status_changed_auto',
+code/core/Mage/CatalogInventory/Model/Stock/Item.php:                    ->setStockStatusChangedAutomaticallyFlag(true);
+code/core/Mage/CatalogInventory/Model/Stock/Item.php:            $this->setStockStatusChangedAutomatically(0);
+code/core/Mage/CatalogInventory/Model/Stock/Item.php:            if ($this->hasStockStatusChangedAutomaticallyFlag()) {
+code/core/Mage/CatalogInventory/Model/Stock/Item.php:                $this->setStockStatusChangedAutomatically((int)$this->getStockStatusChangedAutomaticallyFlag());
+code/core/Mage/CatalogInventory/Model/Observer.php:     * Saving product inventory data. Product qty calculated dynamically.
+code/core/Mage/CatalogInventory/Model/Observer.php:     * Also called after every successful order placement to ensure subtraction of inventory
+code/core/Mage/CatalogInventory/Model/Observer.php:        // e.g. call in event 'sales_model_service_quote_submit_before' and later in 'checkout_submit_all_after'
+code/core/Mage/CatalogInventory/sql/cataloginventory_setup/mysql4-upgrade-1.5.9.9-1.6.0.0.php:    'stock_status_changed_automatically',
+code/core/Mage/CatalogInventory/sql/cataloginventory_setup/mysql4-upgrade-1.5.9.9-1.6.0.0.php:        'comment'   => 'Stock Status Changed Automatically'
+code/core/Mage/CatalogInventory/sql/cataloginventory_setup/install-1.6.0.0.php:        ), 'Stock Status Changed Automatically')
+code/core/Mage/CatalogInventory/sql/cataloginventory_setup/mysql4-upgrade-0.7.2-0.7.3.php:$installer->getConnection()->addColumn($this->getTable('cataloginventory_stock_item'), 'stock_status_changed_automatically', 'tinyint(1) unsigned NOT NULL DEFAULT 0');
+code/core/Mage/Shipping/Model/Carrier/Abstract.php:     * Used to call debug method from not Payment Method context
+code/core/Mage/GoogleCheckout/etc/config.xml:                <use_secure_callback_url>0</use_secure_callback_url>
+code/core/Mage/GoogleCheckout/etc/system.xml:                        <use_secure_callback_url translate="label comment">
+code/core/Mage/GoogleCheckout/etc/system.xml:                        </use_secure_callback_url>
+code/core/Mage/GoogleCheckout/Model/Api.php:        $api = $this->_getApi('callback')->process();
+code/core/Mage/GoogleCheckout/Model/Api/Xml/Callback.php:                ->setAutomaticallyCreated(true)
+code/core/Mage/GoogleCheckout/Model/Api/Xml/Callback.php:            $creditmemo->addComment($this->__('Credit memo has been created automatically'));
+code/core/Mage/GoogleCheckout/Model/Api/Xml/Callback.php:            ->setAutomaticallyCreated(true)
+code/core/Mage/GoogleCheckout/Model/Api/Xml/Callback.php:            ->addComment($this->__('Credit memo has been created automatically'))
+code/core/Mage/GoogleCheckout/Model/Api/Xml/Abstract.php:        error_log(print_r($text, 1) . ($nl ? "\n" : ''), 3, Mage::getBaseDir('log') . DS . 'callback.log');
+code/core/Mage/GoogleCheckout/Model/Api/Xml/Abstract.php:    public function _call($xml)
+code/core/Mage/GoogleCheckout/Model/Api/Xml/Abstract.php:            array('_forced_secure'=>Mage::getStoreConfig('google/checkout/use_secure_callback_url',$this->getStoreId()))
+code/core/Mage/GoogleCheckout/Model/Api/Xml/Checkout.php:        $result = $this->_call($xml);
+code/core/Mage/GoogleCheckout/Model/Shipping.php:     * Used to automatically show it in config and so on
+code/core/Mage/Tag/Model/Indexer/Summary.php:        $this->callEventHandler($event);
+code/core/Mage/Install/controllers/WizardController.php:            $params['success_callback'] = array($this, 'installSuccessCallback');
+code/core/Mage/Install/controllers/WizardController.php:            $params['failure_callback'] = array($this, 'installFailureCallback');
+code/core/Mage/Checkout/controllers/MultishippingController.php:         * Catch index action call to set some flags before checkout/type_multishipping model initialization
+code/core/Mage/Checkout/Model/Type/Onepage.php:     * This method is called by One Page Checkout JS (AJAX) while saving the billing information.
+code/core/Mage/Checkout/Model/Cart.php:     * Can be used to automatically fix user entered quantities before updating cart
+code/core/Mage/Checkout/Model/Cart.php:         * Cart save usually called after changes with cart items.
+code/core/Mage/Reports/Model/Resource/Report/Product/Viewed/Collection.php:            // apply date boundaries (before calling $this->_applyDateRangeFilter())
+code/core/Mage/Centinel/Model/Api.php:    protected function _call($method, $data)
+code/core/Mage/Centinel/Model/Api.php:     * Getter for API call URL
+code/core/Mage/Centinel/Model/Api.php:    public function callLookup($data)
+code/core/Mage/Centinel/Model/Api.php:        $clientResponse = $this->_call('cmpi_lookup', array(
+code/core/Mage/Centinel/Model/Api.php:    public function callAuthentication($data)
+code/core/Mage/Centinel/Model/Api.php:        $clientResponse = $this->_call('cmpi_authenticate', array(
+code/core/Mage/Centinel/Model/Service.php:        $result = $api->callLookup($data);
+code/core/Mage/Centinel/Model/Service.php:        $result = $api->callAuthentication($data);
+code/core/Mage/Api/etc/wsdl.xml:    <message name="call">
+code/core/Mage/Api/etc/wsdl.xml:    <message name="callResponse">
+code/core/Mage/Api/etc/wsdl.xml:        <part name="callReturn" type="xsd:anyType" />
+code/core/Mage/Api/etc/wsdl.xml:        <part name="calls" type="typens:FixedArray" />
+code/core/Mage/Api/etc/wsdl.xml:        <operation name="call">
+code/core/Mage/Api/etc/wsdl.xml:            <input message="typens:call" />
+code/core/Mage/Api/etc/wsdl.xml:            <output message="typens:callResponse" />
+code/core/Mage/Api/etc/wsdl.xml:            <documentation>Multiple calls of resource functionality</documentation>
+code/core/Mage/Api/etc/wsdl.xml:        <operation name="call">
+code/core/Mage/Api/etc/api.xml:            <resource_path_not_callable>
+code/core/Mage/Api/etc/api.xml:                <message>Resource path is not callable.</message>
+code/core/Mage/Api/etc/api.xml:            </resource_path_not_callable>
+code/core/Mage/Api/etc/wsi.xml:            <xsd:element name="callParam">
+code/core/Mage/Api/etc/wsi.xml:            <xsd:element name="callResponseParam">
+code/core/Mage/Api/etc/wsi.xml:                        <xsd:element minOccurs="1" maxOccurs="1" name="calls" type="xsd:anyType" />
+code/core/Mage/Api/etc/wsi.xml:    <wsdl:message name="call">
+code/core/Mage/Api/etc/wsi.xml:        <wsdl:part name="parameters" element="typens:callParam" />
+code/core/Mage/Api/etc/wsi.xml:    <wsdl:message name="callResponse">
+code/core/Mage/Api/etc/wsi.xml:        <wsdl:part name="parameters" element="typens:callResponseParam" />
+code/core/Mage/Api/etc/wsi.xml:        <wsdl:operation name="call">
+code/core/Mage/Api/etc/wsi.xml:            <wsdl:input message="typens:call" />
+code/core/Mage/Api/etc/wsi.xml:            <wsdl:output message="typens:callResponse" />
+code/core/Mage/Api/etc/wsi.xml:            <wsdl:documentation>Multiple calls of resource functionality</wsdl:documentation>
+code/core/Mage/Api/etc/wsi.xml:        <wsdl:operation name="call">
+code/core/Mage/Api/Model/Server.php:     * Complex retrieve adapter code by calling auxiliary model method
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:    public function call($sessionId, $apiPath, $args = array())
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:                throw new Mage_Api_Exception('resource_path_not_callable');
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:            if (is_callable(array(&$model, $method))) {
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:                    return call_user_func_array(array(&$model, $method), $args);
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:                throw new Mage_Api_Exception('resource_path_not_callable');
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:     * Multiple calls of resource functionality
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:     * @param array $calls
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:    public function multiCall($sessionId, array $calls = array(), $options = array())
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:        foreach ($calls as $call) {
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:            if (!isset($call[0])) {
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:            $apiPath = $call[0];
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:            $args    =  (isset($call[1]) ? $call[1] : array());
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:                    throw new Mage_Api_Exception('resource_path_not_callable');
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:                if (is_callable(array(&$model, $method))) {
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:                        $result[] = call_user_func_array(array(&$model, $method), $args);
+code/core/Mage/Api/Model/Server/Handler/Abstract.php:                    throw new Mage_Api_Exception('resource_path_not_callable');
+code/core/Mage/Api/Model/Server/Wsi/Handler.php:    public function __call ($function, $args)
+code/core/Mage/Api/Model/Server/Wsi/Handler.php:        $res = $this->call($sessionId, $apiKey, $args);
+code/core/Mage/Api/Model/Server/Wsi/Handler.php:     * Return called class and method names
+code/core/Mage/Api/Model/Server/Wsi/Handler.php:     * Return an array of parameters for the callable method.
+code/core/Mage/Api/Model/Server/Wsi/Handler.php:     * Prepares arguments for the method calling. Sort in correct order, set default values for omitted parameters.
+code/core/Mage/Api/Model/Server/Wsi/Handler.php:        $callArgs = array();
+code/core/Mage/Api/Model/Server/Wsi/Handler.php:                $callArgs[$pName] = $args[$pName];
+code/core/Mage/Api/Model/Server/Wsi/Handler.php:                    $callArgs[$pName] = $parameter->getDefaultValue();
+code/core/Mage/Api/Model/Server/Wsi/Handler.php:        return $callArgs;
+code/core/Mage/Api/Model/Server/V2/Handler.php:    public function __call( $function, $args )
+code/core/Mage/Api/Model/Server/V2/Handler.php:        return $this->call($sessionId, $apiKey, $args);
+code/core/Mage/Dataflow/Model/Convert/Action/Abstract.php:            if (!is_callable(array($this->getContainer(), $method))) {
+code/core/Mage/Dataflow/Model/Convert/Action/Abstract.php://            printf('<pre>call %s::%s()</pre>', __CLASS__, __FUNCTION__);
+code/core/Mage/Dataflow/Model/Convert/Action/Abstract.php://            printf('<pre>call %s::%s()</pre>', get_class($this->getContainer()), $method);
+code/core/Mage/Dataflow/Model/Convert/Iterator.php:        $callbacks = array();
+code/core/Mage/Dataflow/Model/Convert/Iterator.php:            $callbacks[] = $mapperCb;
+code/core/Mage/Dataflow/Model/Convert/Iterator.php:            $callbacks[] = $adapterCb;
+code/core/Mage/Dataflow/Model/Convert/Iterator.php:        $callbacks[] = array($this, 'updateProgress');
+code/core/Mage/Dataflow/Model/Convert/Iterator.php:            ->walk($import->select($sessionId), $callbacks);
+code/core/Mage/Dataflow/Model/Convert/Iterator.php:    protected function _parseCallback($callback, $defaultMethod=null)
+code/core/Mage/Dataflow/Model/Convert/Iterator.php:        if (!preg_match('#^([a-z0-9_/]+)(::([a-z0-9_]+))?$#i', $callback, $match)) {
+code/core/Mage/Dataflow/Model/Convert/Parser/Csv.php:        if (!is_callable(array($adapter, $adapterMethod))) {
+code/core/Mage/Dataflow/Model/Convert/Parser/Xml/Excel.php:        if (!is_callable(array($adapter, $adapterMethod))) {
+code/core/Mage/Wishlist/Helper/Data.php:     * Method called after wishlist modifications and trigger 'wishlist_items_renewed' event.
+code/core/Mage/Wishlist/Block/Abstract.php:     * Internal constructor, that is called from real constructor
+code/core/Mage/Wishlist/Model/Wishlist.php:     * Basically it can hold
+code/core/Mage/Bundle/Block/Catalog/Product/View/Type/Bundle/Option.php:            $(\'' . $elementId . '\').callbackFunction  = \'bundle.validationCallback\';
+code/core/Mage/ImportExport/Block/Adminhtml/Export/Filter.php:            'frame_callback' => array($this, 'decorateFilter')
+code/core/Mage/ImportExport/Model/Export/Adapter/Csv.php:     * Method called as last step of object instance creation. Can be overrided in child classes.
+code/core/Mage/ImportExport/Model/Export/Adapter/Abstract.php:     * Method called as last step of object instance creation. Can be overridden in child classes.
+code/core/Mage/ImportExport/Model/Export/Entity/Product.php:                $stockItemRow['stock_id'], $stockItemRow['stock_status_changed_automatically']
+code/core/Mage/ImportExport/Model/Import/Uploader.php:        //run validate callbacks
+code/core/Mage/ImportExport/Model/Import/Adapter/Csv.php:     * Method called as last step of object instance creation. Can be overrided in child classes.
+code/core/Mage/ImportExport/Model/Import/Adapter/Abstract.php:     * Method called as last step of object instance creation. Can be overridden in child classes.
+code/core/Mage/ImportExport/Model/Import/Entity/Product.php:     * Must be called after ALL products saving done.
+code/core/Mage/ImportExport/Model/Import/Entity/Product.php:                    $stockItem->setStockStatusChangedAutomatically((int) !$stockItem->verifyStock());
+code/core/Mage/Weee/Model/Total/Invoice/Weee.php:         * a) for last invoice we don't need to collect FPT - it is automatically collected by subtotal/tax collector,
+code/core/Mage/Weee/Model/Total/Invoice/Weee.php:         * that adds whole remaining (not invoiced) subtotal/tax value, so fpt is automatically included into it
+code/core/Mage/GiftMessage/Model/Api.php:         * @see Mage_Core_Model_App::_callObserverMethod($object, $method, $observer)
+code/core/Mage/GiftMessage/Model/Api/V2.php:         * @see Mage_Core_Model_App::_callObserverMethod($object, $method, $observer)
+code/core/Mage/Payment/etc/system.xml:                            <label>Automatically Invoice All Items</label>
+code/core/Mage/Payment/Helper/Data.php:     * Returns value of Zero Subtotal Checkout / Automatically Invoice All Items
+code/core/Mage/Payment/Block/Info.php:     * Children must have toPdf() callable
+code/core/Mage/Payment/Block/Info.php:            if (is_callable(array($child, 'toPdf'))) {
+code/core/Mage/Payment/Model/Recurring/Profile.php:            // automatically set product name if there is no schedule description
+code/core/Mage/Payment/Model/Recurring/Profile.php:                return Mage::helper('payment')->__('The number of scheduled payments that can fail before the profile is automatically suspended.');
+code/core/Mage/Payment/Model/Recurring/Profile.php:                return Mage::helper('payment')->__('Automatically bill the outstanding balance amount in the next billing cycle (if there were failed payments).');
+code/core/Mage/Payment/Model/Recurring/Profile.php:        // automatically determine start date, if not set
+code/core/Mage/Payment/Model/Method/Cc.php:        * calling parent validate function
+code/core/Mage/Payment/Model/Method/Abstract.php:            // the $quote->hasRecurringItems() causes big performance impact, thus it has to be called last
+code/core/Mage/Payment/Model/Method/Abstract.php:     * Used to call debug method from not Payment Method context
+code/core/Mage/Payment/Model/Observer.php:        // duplicate as 'additional_options' to render with the product statically
+code/core/Mage/Index/Block/Adminhtml/Process/Grid.php:            'frame_callback' => array($this, 'decorateStatus')
+code/core/Mage/Index/Block/Adminhtml/Process/Grid.php:            'frame_callback' => array($this, 'decorateUpdateRequired')
+code/core/Mage/Index/Block/Adminhtml/Process/Grid.php:            'frame_callback' => array($this, 'decorateDate')
+code/core/Mage/Index/Model/Indexer/Abstract.php:     * Try dynamicly detect and call event hanler from resource model.
+code/core/Mage/Index/Model/Indexer/Abstract.php:    public function callEventHandler(Mage_Index_Model_Event $event)
+code/core/Mage/Index/Model/Indexer.php:     * Not recursive call is not implement
+code/core/Mage/Index/Model/Indexer.php:                            call_user_func_array(array($dependProcess, $method), $args);
+code/core/Mage/Index/Model/Indexer.php:                call_user_func_array(array($process, $method), $args);
+code/core/Mage/Eav/Block/Adminhtml/Attribute/Edit/Main/Abstract.php:     * This method is called before rendering HTML
+code/core/Mage/Eav/Model/Entity/Attribute/Backend/Serialized.php:        // parent::beforeSave() is not called intentionally
+code/core/Mage/Eav/Model/Entity/Abstract.php:                $results[$attrCode] = call_user_func_array(array($instance, $method), $args);
+code/core/Mage/Eav/Model/Resource/Entity/Attribute/Option/Collection.php:     * Set order by position or alphabetically by values in admin
+code/core/Mage/Eav/Model/Resource/Entity/Attribute/Option/Collection.php:     * @param boolean $sortAlpha sort alphabetically by values in admin
+code/core/Mage/Eav/Model/Resource/Entity/Attribute/Option/Collection.php:        // sort alphabetically by values in admin
+code/core/Mage/Customer/Model/Address.php:     * Set Region ID. $regionId is automatically converted to integer
+code/core/Mage/Widget/Model/Widget.php:     * Widget parameters sort callback
+code/core/Mage/Paypal/etc/config.xml:            <paypal_express_callbackshippingoptions>paypal/express/callbackshippingoptions</paypal_express_callbackshippingoptions>
+code/core/Mage/Paypal/Block/Adminhtml/System/Config/Fieldset/Payment.php:            . '-head" onclick="paypalToggleSolution.call(this, \'' . $element->getHtmlId() . '\', \''
+code/core/Mage/Paypal/Block/Adminhtml/System/Config/Fieldset/Location.php:                        $dependent.requiresObj.callback = function(required) {
+code/core/Mage/Paypal/Block/Adminhtml/System/Config/Fieldset/Location.php:                            $dependent.requiresObj.callback(required);
+code/core/Mage/Paypal/controllers/Adminhtml/Paypal/ReportsController.php:     * Ajax callback for grid actions
+code/core/Mage/Paypal/Model/Pro.php:         * PayPal pro API returns fraud results only in the payment call response
+code/core/Mage/Paypal/Model/Pro.php:            $api->setPayment($payment)->setAuthorizationId($authTransactionId)->callDoVoid();
+code/core/Mage/Paypal/Model/Pro.php:        $api->callDoCapture();
+code/core/Mage/Paypal/Model/Pro.php:            $api->callRefundTransaction();
+code/core/Mage/Paypal/Model/Pro.php:        $api->callGetTransactionDetails();
+code/core/Mage/Paypal/Model/Pro.php:        $api->setAction($action)->callManagePendingTransactionStatus();
+code/core/Mage/Paypal/Model/Pro.php:        $api->callGetTransactionDetails();
+code/core/Mage/Paypal/Model/Pro.php:        $api->callGetTransactionDetails();
+code/core/Mage/Paypal/Model/Pro.php:        $api->callCreateRecurringPaymentsProfile();
+code/core/Mage/Paypal/Model/Pro.php:            ->callGetRecurringPaymentsProfileDetails($result)
+code/core/Mage/Paypal/Model/Pro.php:            ->callManageRecurringPaymentsProfileStatus()
+code/core/Mage/Paypal/Model/Hostedpro.php:        $response = $api->call(self::BM_BUTTON_METHOD, $request->getRequestData());
+code/core/Mage/Paypal/Model/Express/Checkout.php:     * Spares API calls of getting "pal" variable, by putting it into cache per store view
+code/core/Mage/Paypal/Model/Express/Checkout.php:                    $this->_api->callGetPalDetails();
+code/core/Mage/Paypal/Model/Express/Checkout.php:        // call API and redirect with token
+code/core/Mage/Paypal/Model/Express/Checkout.php:        $this->_api->callSetExpressCheckout();
+code/core/Mage/Paypal/Model/Express/Checkout.php:            ->callGetExpressCheckoutDetails();
+code/core/Mage/Paypal/Model/Express/Checkout.php:     * Return callback response with shipping options
+code/core/Mage/Paypal/Model/Express/Checkout.php:     * Determine whether redirect somewhere specifically is required
+code/core/Mage/Paypal/Model/Express/Checkout.php:     * Set create billing agreement flag to api call
+code/core/Mage/Paypal/Model/Express/Checkout.php:     * This function is used as a callback comparison function in shipping options sorting process
+code/core/Mage/Paypal/Model/Payflowlink.php:     * Controller for callback urls
+code/core/Mage/Paypal/Model/Payflowlink.php:    protected $_callbackController = 'payflow';
+code/core/Mage/Paypal/Model/Payflowlink.php:     * Get callback controller
+code/core/Mage/Paypal/Model/Payflowlink.php:        return $this->_callbackController;
+code/core/Mage/Paypal/Model/Payflowlink.php:     * Get callback url
+code/core/Mage/Paypal/Model/Direct.php:        // call api and import transaction and other payment information
+code/core/Mage/Paypal/Model/Direct.php:        $api->callDoDirectPayment();
+code/core/Mage/Paypal/Model/Direct.php:            $api->callGetTransactionDetails();
+code/core/Mage/Paypal/Model/Express.php:        $api = $this->_callDoAuthorize($amount, $payment, $payment->getTransactionId());
+code/core/Mage/Paypal/Model/Express.php:                $api = $this->_callDoAuthorize(
+code/core/Mage/Paypal/Model/Express.php:        // prepare api call
+code/core/Mage/Paypal/Model/Express.php:        // call api and get details from it
+code/core/Mage/Paypal/Model/Express.php:        $api->callDoExpressCheckoutPayment();
+code/core/Mage/Paypal/Model/Express.php:    protected function _callDoAuthorize($amount, $payment, $parentTransactionId)
+code/core/Mage/Paypal/Model/Express.php:            ->callDoAuthorization();
+code/core/Mage/Paypal/Model/Info.php:     * @param array|Varien_Object|callback $from
+code/core/Mage/Paypal/Model/Info.php:     * @param array|Varien_Object|callback $to
+code/core/Mage/Paypal/Model/Payflow/Request.php:    public function __call($method, $args)
+code/core/Mage/Paypal/Model/Config.php:     * Sets the values into public class parameters, to avoid redundant calls of this method
+code/core/Mage/Paypal/Model/Config.php:     * Whether Express Checkout button should be rendered dynamically
+code/core/Mage/Paypal/Model/Config.php:     * @see Paypal_Model_Api_Nvp::callGetPalDetails()
+code/core/Mage/Paypal/Model/Api/Standard.php:     * Depending on whether there are cart line items set, will aggregate everything or display items specifically
+code/core/Mage/Paypal/Model/Api/Standard.php:        $this->_debug(array('request' => $request)); // TODO: this is not supposed to be called in getter
+code/core/Mage/Paypal/Model/Api/Abstract.php:     * Filter callbacks for exporting $this data to API call
+code/core/Mage/Paypal/Model/Api/Abstract.php:     * Filter callbacks for importing API result to $this data
+code/core/Mage/Paypal/Model/Api/Abstract.php:                $callback   = $this->_exportToRequestFilters[$key];
+code/core/Mage/Paypal/Model/Api/Abstract.php:                $result[$key] = call_user_func(array($this, $callback), $privateKey, $publicKey);
+code/core/Mage/Paypal/Model/Api/Abstract.php:                $callback = $this->_importFromRequestFilters[$key];
+code/core/Mage/Paypal/Model/Api/Abstract.php:                $response[$key] = call_user_func(array($this, $callback), $response[$key], $key, $map[$key]);
+code/core/Mage/Paypal/Model/Api/Abstract.php:                    $callback   = $this->_lineItemExportItemsFilters[$publicKey];
+code/core/Mage/Paypal/Model/Api/Abstract.php:                    $value = call_user_func(array($this, $callback), $value);
+code/core/Mage/Paypal/Model/Api/Abstract.php:     * Filter amounts in API calls
+code/core/Mage/Paypal/Model/Api/Abstract.php:     * Filter boolean values in API calls
+code/core/Mage/Paypal/Model/Api/Abstract.php:     * Filter int values in API calls
+code/core/Mage/Paypal/Model/Api/Abstract.php:     * Filter qty in API calls
+code/core/Mage/Paypal/Model/Api/Nvp.php: * @TODO: move some parts to abstract, don't hesitate to throw exceptions on api calls
+code/core/Mage/Paypal/Model/Api/Nvp.php:        // each call
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Filter callbacks for preparing internal amounts to NVP request
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Request map for each API call
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Map for callback request
+code/core/Mage/Paypal/Model/Api/Nvp.php:    protected $_callbackRequestMap = array(
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Payment information response specifically to be collected after some requests
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Warning codes recollected after each API call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    protected $_callWarnings = array();
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Error codes recollected after each API call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    protected $_callErrors = array();
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Whether to return raw response information after each call
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * SetExpressCheckout call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callSetExpressCheckout()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call(self::SET_EXPRESS_CHECKOUT, $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * GetExpressCheckoutDetails call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    function callGetExpressCheckoutDetails()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call(self::GET_EXPRESS_CHECKOUT_DETAILS, $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * DoExpressCheckout call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callDoExpressCheckoutPayment()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call(self::DO_EXPRESS_CHECKOUT_PAYMENT, $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callDoDirectPayment()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call(self::DO_DIRECT_PAYMENT, $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Do Reference Transaction call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callDoReferenceTransaction()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call('DoReferenceTransaction', $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Check whether the last call was returned with fraud warning
+code/core/Mage/Paypal/Model/Api/Nvp.php:        return in_array(11610, $this->_callWarnings);
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callDoReauthorization()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call('DoReauthorization', $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * DoCapture call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callDoCapture()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call(self::DO_CAPTURE, $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * DoAuthorization call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callDoAuthorization()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call(self::DO_AUTHORIZATION, $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * DoVoid call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callDoVoid()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $this->call(self::DO_VOID, $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callGetTransactionDetails()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call('GetTransactionDetails', $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * RefundTransaction call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callRefundTransaction()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call(self::REFUND_TRANSACTION, $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callManagePendingTransactionStatus()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call('ManagePendingTransactionStatus', $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * getPalDetails call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callGetPalDetails()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call('getPalDetails', array());
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Set Customer BillingA greement call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callSetCustomerBillingAgreement()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call('SetCustomerBillingAgreement', $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Get Billing Agreement Customer Details call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callGetBillingAgreementCustomerDetails()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call('GetBillingAgreementCustomerDetails', $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Create Billing Agreement call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callCreateBillingAgreement()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call('CreateBillingAgreement', $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Billing Agreement Update call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callUpdateBillingAgreement()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call('BillAgreementUpdate', $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:            if (in_array(10201, $this->_callErrors)) {
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * CreateRecurringPaymentsProfile call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callCreateRecurringPaymentsProfile()
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call('CreateRecurringPaymentsProfile', $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * ManageRecurringPaymentsProfileStatus call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callManageRecurringPaymentsProfileStatus()
+code/core/Mage/Paypal/Model/Api/Nvp.php:            $response = $this->call('ManageRecurringPaymentsProfileStatus', $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:            if ((in_array(11556, $this->_callErrors) && 'Cancel' === $request['ACTION'])
+code/core/Mage/Paypal/Model/Api/Nvp.php:                || (in_array(11557, $this->_callErrors) && 'Suspend' === $request['ACTION'])
+code/core/Mage/Paypal/Model/Api/Nvp.php:                || (in_array(11558, $this->_callErrors) && 'Reactivate' === $request['ACTION'])
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * GetRecurringPaymentsProfileDetails call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function callGetRecurringPaymentsProfileDetails(Varien_Object $result)
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $response = $this->call('GetRecurringPaymentsProfileDetails', $request);
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Import callback request array into $this public data
+code/core/Mage/Paypal/Model/Api/Nvp.php:        Varien_Object_Mapper::accumulateByMap($request, $address, $this->_callbackRequestMap);
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $address->setExportedKeys(array_values($this->_callbackRequestMap));
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Prepare response for shipping options callback
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Do the API call
+code/core/Mage/Paypal/Model/Api/Nvp.php:    public function call($methodName, array $request)
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $this->_callErrors = array();
+code/core/Mage/Paypal/Model/Api/Nvp.php:            $this->_callErrors[] = $response["L_ERRORCODE{$i}"];
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Catch success calls and collect warnings
+code/core/Mage/Paypal/Model/Api/Nvp.php:        $this->_callWarnings = array();
+code/core/Mage/Paypal/Model/Api/Nvp.php:                    $this->_callWarnings[] = $response["L_ERRORCODE{$i}"];
+code/core/Mage/Paypal/Model/Api/Nvp.php:     * Return each call request without unused fields in case of Express Checkout Unilateral payments
+code/core/Mage/Paypal/Model/Method/Agreement.php:        $api->callSetCustomerBillingAgreement();
+code/core/Mage/Paypal/Model/Method/Agreement.php:        $api->callGetBillingAgreementCustomerDetails();
+code/core/Mage/Paypal/Model/Method/Agreement.php:        $api->callCreateBillingAgreement();
+code/core/Mage/Paypal/Model/Method/Agreement.php:            $api->callUpdateBillingAgreement();
+code/core/Mage/Paypal/Model/Method/Agreement.php:        // call api and import transaction and other payment information
+code/core/Mage/Paypal/Model/Method/Agreement.php:        $api->callDoReferenceTransaction();
+code/core/Mage/Paypal/Model/Method/Agreement.php:        $api->callGetTransactionDetails();
+code/core/Mage/Paypal/Model/Payflowadvanced.php:     * Controller for callback urls
+code/core/Mage/Paypal/Model/Payflowadvanced.php:    protected $_callbackController = 'payflowadvanced';
+code/core/Mage/Api2/Block/Adminhtml/Roles/Grid.php:            'frame_callback' => array($this, 'decorateUserType')
+code/core/Mage/Api2/Model/Resource.php:     * @var Mage_Api2_Model_Multicall
+code/core/Mage/Api2/Model/Resource.php:    protected $_multicall;
+code/core/Mage/Api2/Model/Resource.php:     * Perform multiple calls to subresources of specified resource
+code/core/Mage/Api2/Model/Resource.php:    protected function _multicall($resourceInstanceId)
+code/core/Mage/Api2/Model/Resource.php:        if (!$this->_multicall) {
+code/core/Mage/Api2/Model/Resource.php:            $this->_multicall = Mage::getModel('api2/multicall');
+code/core/Mage/Api2/Model/Resource.php:        return $this->_multicall->call($resourceInstanceId, $resourceName, $this->getRequest());
+code/core/Mage/Api2/Model/Resource.php:            throw new Exception('Invalid arguments for isAllowed() call');
+code/core/Mage/Api2/Model/Route/Abstract.php:     * Process construct param and call parent::__construct() with params
+code/core/Mage/Api2/Model/Request/Internal.php:     * Set HTTP request method for request emulation during internal call
+code/core/Mage/Api2/Model/Request/Internal.php:     * Override parent method for request emulation during internal call
+code/core/Mage/Api2/Model/Server.php:     * Make internal call to api
+code/core/Mage/Api2/Model/Multicall.php: * API2 model for multiple internal calls to subresources of specified resource
+code/core/Mage/Api2/Model/Multicall.php:class Mage_Api2_Model_Multicall
+code/core/Mage/Api2/Model/Multicall.php:     * Multicall to subresources of specified resource
+code/core/Mage/Api2/Model/Multicall.php:    public function call($parentResourceId, $parentResourceName, Mage_Api2_Model_Request $parentCallRequest)
+code/core/Mage/Api2/Model/Multicall.php:            $this->_callSubresource($subresource);
+code/core/Mage/Api2/Model/Multicall.php:     * Make call to specified subresource with data from request
+code/core/Mage/Api2/Model/Multicall.php:     * @return Mage_Api2_Model_Multicall
+code/core/Mage/Api2/Model/Multicall.php:    protected function _callSubresource($subresource)
+code/core/Mage/Api2/Model/Multicall.php:        // make internal call
+code/core/Mage/Api2/Model/Multicall.php:     * Make internal call to specified subresource on with specified data via API2 server
+code/core/Mage/Api2/Model/Multicall.php:     * @return Mage_Api2_Model_Multicall
+code/core/Mage/Api2/Model/Multicall.php:     * Add internal call response to global response
+code/core/Mage/Api2/Model/Resource/Validator.php:     * call returned false. The array keys are validation failure error identifiers,
+code/core/Mage/Api2/Model/Resource/Validator.php:     * If isValidData() was never called or if the most recent isValidData() call
+code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Submission/Tab/Container/Submission.php:                    $this->__('Large icon that appears in the iTunes App Store. You do not need to apply a gradient or soft edges (this is done automatically by Apple). Required size: 512px x 512px.'), '', true);
+code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Submission/Tab/Container/Submission.php:                    $this->__('Icon that will appear on the user’s phone after they download your app.  You do not need to apply a gradient or soft edges (this is done automatically by Apple).  Recommended size: 57px x 57px at 72 dpi.'), '', true);
+code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Submission/Tab/Container/Submission.php:                    $this->__('Icon that will appear on the user\'s phone after they download your app. You do not need to apply a gradient or soft edges (this is done automatically by Apple). Recommended size: 114px x 114px.'), '', false);
+code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Submission/Tab/Container/Submission.php:                    $this->__('Large icon that appears in the iTunes App Store. You do not need to apply a gradient or soft edges (this is done automatically by Apple). Required size: 512px x 512px.'), '', true);
+code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Submission/Tab/Container/Submission.php:                    $this->__('Icon that will appear on the user\'s device after they download your app. You do not need to apply a gradient or soft edges (this is done automatically by Apple). Recommended size: 72px x 72px.'), '', true);
+code/core/Mage/XmlConnect/controllers/Paypal/MeclController.php:     * (GetExpressCheckoutDetails method call)
+code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Collection.php:     * @param mixed $callback
+code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Collection.php:    public function usort($callback)
+code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Collection.php:        usort($this->_elements, $callback);
+code/core/Mage/XmlConnect/Model/Resource/ConfigData/Collection.php:            if (is_callable($this->$method($val))) {
+code/core/Mage/Catalog/Helper/Image.php:     * Applicable before calling resize()
+code/core/Mage/Catalog/Helper/Image.php:     * Applicable before calling resize()
+code/core/Mage/Catalog/Helper/Image.php:     * Applicable before calling resize()
+code/core/Mage/Catalog/Helper/Image.php:     * Applicable before calling resize()
+code/core/Mage/Catalog/Helper/Image.php:     * Applicable before calling resize()
+code/core/Mage/Catalog/Block/Product/View/Options/Type/Select.php:                    . '\').callbackFunction = \'validateOptionsCallback\';' . '</script>';
+code/core/Mage/Catalog/Block/Product/List.php:        // called prepare sortable parameters
+code/core/Mage/Catalog/Model/Product.php:     * products it's called very often in Item->getProduct(). So removing chain of magic with more cpu consuming
+code/core/Mage/Catalog/Model/Product.php:        if (is_callable(array($productType, 'getIsSalable'))) {
+code/core/Mage/Catalog/Model/Category/Indexer/Flat.php:                $event->addNewData('catalog_category_flat_skip_call_event_handler', true);
+code/core/Mage/Catalog/Model/Category/Indexer/Product.php:        if (empty($data['catalog_category_product_skip_call_event_handler'])) {
+code/core/Mage/Catalog/Model/Category/Indexer/Product.php:            $this->callEventHandler($event);
+code/core/Mage/Catalog/Model/Product/Indexer/Flat.php:                $event->addNewData('catalog_product_flat_skip_call_event_handler', true);
+code/core/Mage/Catalog/Model/Product/Indexer/Price.php:            // call product type indexers registerEvent
+code/core/Mage/Catalog/Model/Product/Indexer/Price.php:        if (empty($data['catalog_product_price_skip_call_event_handler'])) {
+code/core/Mage/Catalog/Model/Product/Indexer/Price.php:            $this->callEventHandler($event);
+code/core/Mage/Catalog/Model/Product/Indexer/Eav.php:        if (empty($data['catalog_product_eav_skip_call_event_handler'])) {
+code/core/Mage/Catalog/Model/Product/Indexer/Eav.php:            $this->callEventHandler($event);
+code/core/Mage/Catalog/Model/Product/Api/V2.php:     *                                        otherwise - try to determine identifier type automatically
+code/core/Mage/Catalog/Model/Design.php:     * @param int $calledFrom
+code/core/Mage/Catalog/Model/Design.php:    public function applyDesign($object, $calledFrom = 0)
+code/core/Mage/Catalog/Model/Design.php:        if ($calledFrom != self::APPLY_FOR_CATEGORY && $calledFrom != self::APPLY_FOR_PRODUCT) {
+code/core/Mage/Catalog/Model/Design.php:            $this->_applyDesign($object, $calledFrom);
+code/core/Mage/Catalog/Model/Design.php:            $this->_inheritDesign($object, $calledFrom);
+code/core/Mage/Catalog/Model/Design.php:     * @param int $calledFrom
+code/core/Mage/Catalog/Model/Design.php:    protected function _inheritDesign($object, $calledFrom = 0)
+code/core/Mage/Catalog/Model/Design.php:                return $this->_inheritDesign($category, $calledFrom);
+code/core/Mage/Catalog/Model/Design.php:                    return $this->_inheritDesign($category, $calledFrom);
+code/core/Mage/Catalog/Model/Design.php:            if ($calledFrom == self::APPLY_FOR_PRODUCT) {
+code/core/Mage/Catalog/Model/Design.php:     * @param int $calledFrom
+code/core/Mage/Catalog/Model/Design.php:    protected function _applyDesignRecursively($object, $calledFrom = 0, $pass = 0)
+code/core/Mage/Catalog/Model/Design.php:        $checkAndApply = $this->_isApplyFor($calledFrom, $applyTo, $pass)
+code/core/Mage/Catalog/Model/Design.php:            $this->_applyDesignRecursively($category, $calledFrom, $pass);
+code/core/Mage/Catalog/Model/Design.php:    protected function _applyDesign($designUpdateData, $calledFrom = 0, $loaded = false, $pass = 0)
+code/core/Mage/Catalog/Model/Design.php:            $checkAndApply = $this->_isApplyFor($calledFrom, $applyTo, $pass)
+code/core/Mage/Catalog/Model/Design.php:                $this->_applyDesign($_designUpdateData, $calledFrom, true, $pass);
+code/core/Mage/Catalog/Model/Api2/Product/Image/Rest/Admin/V1.php:            // updateImage() must be called to add image data that is missing after addImage() call
+code/core/Mage/Catalog/Model/Api2/Product/Rest/Admin/V1.php:            'stock_status_changed_auto', 'stock_status_changed_automatically', 'product_name', 'store_id',
+code/core/Mage/Catalog/Model/Api2/Product/Rest/Admin/V1.php:            $this->_multicall($product->getId());
+code/core/Mage/Catalog/Model/Resource/Url.php:     * Remove unused rewrites for product - called after we created all needed rewrites for product and know the categories
+code/core/Mage/Catalog/Model/Resource/Product/Collection.php:                $select->where(call_user_func_array('sprintf', $filterData));
+code/core/Zend/Date.php:                    $this->setUnixTimestamp(call_user_func(Zend_Locale_Math::$sub, $this->getUnixTimestamp(), $comp));
+code/core/Zend/Date.php:                $this->setUnixTimestamp(call_user_func(Zend_Locale_Math::$add, $this->getUnixTimestamp(), $date));
+code/core/Zend/Date.php:                $this->setUnixTimestamp(call_user_func(Zend_Locale_Math::$add, $this->getUnixTimestamp(), $date));
+code/core/Zend/Date.php:                $this->setUnixTimestamp(call_user_func(Zend_Locale_Math::$sub, $this->getUnixTimestamp(), $date));
+code/core/Zend/Date.php:                return call_user_func(Zend_Locale_Math::$comp, $comp, $date);
+code/core/Zend/XmlRpc/Request.php: * Encapsulates an XmlRpc request, holding the method call and all parameters.
+code/core/Zend/XmlRpc/Request.php:     * Method to call
+code/core/Zend/XmlRpc/Request.php:     * Set method to call
+code/core/Zend/XmlRpc/Request.php:     * Retrieve call method
+code/core/Zend/XmlRpc/Request.php:     * If called with a single, array value, that array is used to set the
+code/core/Zend/XmlRpc/Request.php:     * parameters stack. If called with multiple values or a single non-array
+code/core/Zend/XmlRpc/Request.php:     * Best is to call with array of the format, in order to allow type hinting
+design/adminhtml/default/default/template/system/config/edit.phtml:        mapClasses: function(element, full, callback, classPrefix) {
+design/adminhtml/default/default/template/system/config/edit.phtml:                    callback(className);
+design/adminhtml/default/default/template/system/config/edit.phtml:        checkRequired: function(element, callback) {
+design/adminhtml/default/default/template/system/config/edit.phtml:                    adminSystemConfig.checkRequired.call($(inputElement), element, callback);
+design/adminhtml/default/default/template/system/config/edit.phtml:            callback(this);
+design/adminhtml/default/default/template/system/config/edit.phtml:            'callback': function(required) {},
+design/adminhtml/default/default/template/system/config/edit.phtml:                        adminSystemConfig.checkRequired.call($(required), eventObj.element, eventObj.callback);
+design/adminhtml/default/default/template/catalog/category/tree.phtml:    Ext.tree.TreePanel.Enhanced.superclass.constructor.call(this, el, config);
+design/adminhtml/default/default/template/catalog/category/checkboxes/tree.phtml:    Ext.tree.TreePanel.Enhanced.superclass.constructor.call(this, el, config);
+design/adminhtml/default/default/template/catalog/category/widget/tree.phtml:    Ext.tree.TreePanel.Enhanced.superclass.constructor.call(this, el, config);
+design/adminhtml/default/default/template/catalog/category/edit.phtml:                 * This func depends on variables, that came in response, and were eval'ed in onSuccess() callback.
+design/adminhtml/default/default/template/downloadable/product/composite/fieldset/downloadable.phtml:                            $('links_<?php echo $_link->getId() ?>').callbackFunction = 'validateDownloadableCallback';
+design/adminhtml/default/default/template/urlrewrite/categories.phtml:    Ext.tree.TreePanel.Enhanced.superclass.constructor.call(this, el, config);
+design/adminhtml/default/default/layout/tag.xml:                        <data_callback>getRelatedProducts</data_callback>
+design/adminhtml/default/default/layout/catalog.xml:                        <data_callback>getSelectedRelatedProducts</data_callback>
+design/adminhtml/default/default/layout/catalog.xml:                        <data_callback>getSelectedUpsellProducts</data_callback>
+design/adminhtml/default/default/layout/catalog.xml:                        <data_callback>getSelectedCrossSellProducts</data_callback>
+design/adminhtml/default/default/layout/catalog.xml:                        <data_callback>getSelectedGroupedProducts</data_callback>
+design/frontend/enterprise/mobile/layout/catalog.xml:            <block type="cms/block" name="cms.top.callout" before="-">
+design/frontend/enterprise/mobile/layout/catalog.xml:                <action method="setBlockId"><block_id>top_callout</block_id></action>
+design/frontend/enterprise/mobile/layout/catalog.xml:            <block type="core/template" name="left.permanent.callout" template="callouts/left_col.phtml">
+design/frontend/enterprise/mobile/layout/catalog.xml:                <action method="setImgSrc"><src>images/media/col_left_callout.jpg</src></action>
+design/frontend/enterprise/mobile/layout/catalog.xml:                <action method="unsetCallChild"><child>container1</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/enterprise/mobile/layout/catalog.xml:                <action method="unsetCallChild"><child>container2</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/enterprise/mobile/layout/customer.xml:          <action method="unsetChild"><name>left.permanent.callout</name></action>
+design/frontend/enterprise/mobile/layout/checkout.xml:                <block type="cms/block" name="checkout.callout" as="checkoutCallout">
+design/frontend/enterprise/mobile/layout/checkout.xml:                    <action method="setBlockId"><block_id>checkout_callout</block_id></action>
+design/frontend/base/default/template/customer/widget/dob.phtml:      Alternatively we could calculate widths automatically using block input parameters.
+design/frontend/base/default/template/catalog/product/price_msrp_item.phtml:                                originalOptionPriceReload.call(this);
+design/frontend/base/default/template/downloadable/catalog/product/links.phtml:                            $('links_<?php echo $_link->getId() ?>').callbackFunction = 'validateDownloadableCallback';
+design/frontend/base/default/template/wishlist/render/item/price_msrp_item.phtml:                                originalOptionPriceReload.call(this);
+design/frontend/base/default/template/qquoteadv/catalog/product/view.phtml:								<span class="heading"><?php echo $this->__('Please call us for any questions related to this item.') ?></span>
+design/frontend/base/default/template/qquoteadv/catalog/product/view.phtml~:								<span class="heading"><?php echo $this->__('Please call us for any questions related to this item.') ?></span>
+design/frontend/base/default/layout/catalog.xml~:            <block type="core/template" name="left.permanent.callout" template="callouts/left_col.phtml">
+design/frontend/base/default/layout/catalog.xml~:                <action method="setImgSrc"><src>images/media/col_left_callout.jpg</src></action>
+design/frontend/base/default/layout/catalog.xml~:            <block type="core/template" name="right.permanent.callout" template="callouts/right_col.phtml">
+design/frontend/base/default/layout/catalog.xml~:                <action method="setImgSrc"><src>images/media/col_right_callout.jpg</src></action>
+design/frontend/base/default/layout/catalog.xml~:                <action method="unsetCallChild"><child>container1</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/base/default/layout/catalog.xml~:                <action method="unsetCallChild"><child>container2</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/base/default/layout/catalog.xml:            <block type="core/template" name="left.permanent.callout" template="callouts/left_col.phtml">
+design/frontend/base/default/layout/catalog.xml:                <action method="setImgSrc"><src>images/media/col_left_callout.jpg</src></action>
+design/frontend/base/default/layout/catalog.xml:            <block type="core/template" name="right.permanent.callout" template="callouts/right_col.phtml">
+design/frontend/base/default/layout/catalog.xml:                <action method="setImgSrc"><src>images/media/col_right_callout.jpg</src></action>
+design/frontend/base/default/layout/catalog.xml:                <action method="unsetCallChild"><child>container1</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/base/default/layout/catalog.xml:                <action method="unsetCallChild"><child>container2</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/base/default/layout/customer.xml:          <action method="unsetChild"><name>left.permanent.callout</name></action>
+design/frontend/base/default/layout/reports.xml:            <block type="reports/product_viewed" before="right.permanent.callout" name="right.reports.product.viewed" template="reports/product_viewed.phtml" />
+design/frontend/base/default/layout/reports.xml:            <block type="reports/product_compared" before="right.permanent.callout" name="right.reports.product.compared" template="reports/product_compared.phtml" />
+design/frontend/base/default/layout/reports.xml:            <block type="reports/product_viewed" before="right.permanent.callout" name="left.reports.product.viewed" template="reports/product_viewed.phtml" />
+design/frontend/default/grayscale/template/catalog/product/view.phtml:								<span class="heading"><?php echo $this->__('Please call us for any questions related to this item.') ?></span>
+design/frontend/default/grayscale/template/catalog/product/view.phtml~:								<span class="heading"><?php echo $this->__('Please call us for any questions related to this item.') ?></span>
+design/frontend/default/grayscale/locale/es_ES/translate.csv:"Please call us for any questions related to this item.","Por favor, llámenos para cualquier pregunta relacionada con este tema."
+design/frontend/default/grayscale/locale/da_DK/translate.csv:"Please call us for any questions related to this item.","Bitte rufen Sie uns bei etwaigen Fragen zu diesem Produkt an"
+design/frontend/default/grayscale/locale/it_IT/translate.csv:"Please call us for any questions related to this item.","Vi preghiamo di contattarci per eventuali domande relative a questo elemento"
+design/frontend/default/grayscale/locale/de_DE/translate.csv:"Please call us for any questions related to this item.","Bitte rufen Sie uns bei etwaigen Fragen zu diesem Produkt an"
+design/frontend/default/grayscale/locale/fr_FR/translate.csv:"Please call us for any questions related to this item.","Veuillez nous appeler pour toutes questions relatives à cet article."
+design/frontend/default/grayscale/layout/catalog1.xml:            <block type="core/template" name="left.permanent.callout" template="callouts/left_col.phtml">
+design/frontend/default/grayscale/layout/catalog1.xml:                <action method="setImgSrc"><src>images/media/col_left_callout.jpg</src></action>
+design/frontend/default/grayscale/layout/catalog1.xml:            <block type="core/template" name="right.permanent.callout" template="callouts/right_col.phtml">
+design/frontend/default/grayscale/layout/catalog1.xml:                <action method="setImgSrc"><src>images/media/col_right_callout.jpg</src></action>
+design/frontend/default/grayscale/layout/catalog1.xml:                <action method="unsetCallChild"><child>container1</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/default/grayscale/layout/catalog1.xml:                <action method="unsetCallChild"><child>container2</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/default/grayscale/layout/catalog.xml~:            <block type="core/template" name="left.permanent.callout" template="callouts/left_col.phtml">
+design/frontend/default/grayscale/layout/catalog.xml~:                <action method="setImgSrc"><src>images/media/col_left_callout.jpg</src></action>
+design/frontend/default/grayscale/layout/catalog.xml~:            <block type="core/template" name="right.permanent.callout" template="callouts/right_col.phtml">
+design/frontend/default/grayscale/layout/catalog.xml~:                <action method="setImgSrc"><src>images/media/col_right_callout.jpg</src></action>
+design/frontend/default/grayscale/layout/catalog.xml~:                <action method="unsetCallChild"><child>container1</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/default/grayscale/layout/catalog.xml~:                <action method="unsetCallChild"><child>container2</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/default/grayscale/layout/local.xml~:			<remove name="right.permanent.callout"/>
+design/frontend/default/grayscale/layout/local.xml~:			<remove name="left.permanent.callout" />
+design/frontend/default/grayscale/layout/catalog.xml:            <block type="core/template" name="left.permanent.callout" template="callouts/left_col.phtml">
+design/frontend/default/grayscale/layout/catalog.xml:                <action method="setImgSrc"><src>images/media/col_left_callout.jpg</src></action>
+design/frontend/default/grayscale/layout/catalog.xml:            <block type="core/template" name="right.permanent.callout" template="callouts/right_col.phtml">
+design/frontend/default/grayscale/layout/catalog.xml:                <action method="setImgSrc"><src>images/media/col_right_callout.jpg</src></action>
+design/frontend/default/grayscale/layout/catalog.xml:                <action method="unsetCallChild"><child>container1</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/default/grayscale/layout/catalog.xml:                <action method="unsetCallChild"><child>container2</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/default/grayscale/layout/customer.xml:          <action method="unsetChild"><name>left.permanent.callout</name></action>
+design/frontend/default/grayscale/layout/local.xml:			<remove name="right.permanent.callout"/>
+design/frontend/default/grayscale/layout/local.xml:			<remove name="left.permanent.callout" />
+design/frontend/default/default/template/mageclub/horizontalproductsslider/list.phtml~:<div class="ui_full callouts-press">
+design/frontend/default/iphone/layout/catalog.xml:            <block type="cms/block" name="cms.top.callout" before="-">
+design/frontend/default/iphone/layout/catalog.xml:                <action method="setBlockId"><block_id>top_callout</block_id></action>
+design/frontend/default/iphone/layout/catalog.xml:                <action method="unsetCallChild"><child>container1</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/default/iphone/layout/catalog.xml:                <action method="unsetCallChild"><child>container2</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/default/iphone/layout/customer.xml:          <action method="unsetChild"><name>left.permanent.callout</name></action>
+design/frontend/default/modern/template/page/html/footer.phtml:            <img src="<?php echo $this->getSkinUrl('images/media/footer_callout.png');?>" class="footer-callout" alt="" />
+design/frontend/default/modern/template/checkout/cart.phtml:                    <img src="<?php echo $this->getSkinUrl('images/media/callout1.jpg') ?>" alt="" />
+design/frontend/default/modern/layout/catalog.xml:            <!--block type="core/template" name="left.permanent.callout" template="callouts/left_col.phtml">
+design/frontend/default/modern/layout/catalog.xml:                <action method="setImgSrc"><src>images/media/left_col_callout.jpg</src></action>
+design/frontend/default/modern/layout/catalog.xml:                <action method="unsetCallChild"><child>container1</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/frontend/default/modern/layout/catalog.xml:                <action method="unsetCallChild"><child>container2</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+design/install/default/default/template/install/config.phtml:                <small><?php echo $this->__('Check this box only if it is not possible to automatically validate the Base URL.') ?></small>
+design/install/default/default/template/install/config.phtml:                <small><?php echo $this->__('Check this box only if it is not possible to automatically validate Secure URL, for example if HTTP authentication is required.') ?></small>
+locale/es_ES/Mage_Cron.csv:"Invalid callback: %s::%s does not exist","Llamada inválida: %s::%s no existe"
+locale/es_ES/Mage_Cron.csv:"No callbacks found","Llamadas no encontradas"
+locale/es_ES/Mage_Catalog.csv:"Please click on Close Window button if it won't be closed automatically","Por favor, presione el botón 'Cerrar ventana' si no se cierra automáticamente"
+locale/es_ES/Mage_Install.csv:"Check this box only if it is not possible to automatically validate Base URL.","Check this box only if it is not possible to automatically validate Base URL."
+locale/es_ES/Mage_Install.csv:"Check this box only if it is not possible to automatically validate Secure URL, for example if HTTP authentication is required.","Marque esta casilla sólo si no es posible validar automáticamente URL seguras. Por ejemplo si se requiere una autentificación HTTP."
+locale/es_ES/Mage_Payment.csv:"Automatically invoice all items","Facturar automáticamente todos los artículos"
+locale/it_IT/Mage_Cron.csv:"Invalid callback: %s::%s does not exist","Richiamo non valido: %s::%s non esiste"
+locale/it_IT/Mage_Cron.csv:"No callbacks found","Nessun richiamo trovato"
+locale/it_IT/Mage_Catalog.csv:"Please click on Close Window button if it won't be closed automatically","Clicca sul bottone Chiudi Finestra se non si chiude automaticamente"
+locale/it_IT/Mage_Install.csv:"Check this box only if it is not possible to automatically validate Base URL.","Seleziona questa casella solo se non è possibile convalidare l'URL di Base automaticamente"
+locale/it_IT/Mage_Install.csv:"Check this box only if it is not possible to automatically validate Secure URL, for example if HTTP authentication is required.","Spuntare questa opzione solo se non è possibile convalidare automaticamente la Secure URL, ad esempio se è richiesta autenticazione HTTP."
+locale/it_IT/Mage_Payment.csv:"Automatically invoice all items","Fattura automaticamente tutti gli Articoli"
+locale/de_DE/Mage_Cron.csv:"Invalid callback: %s::%s does not exist","Ungültiges Callback: %s::%s existiert nicht"
+locale/de_DE/Mage_Cron.csv:"No callbacks found","Keine Callbacks gefunden"
+locale/de_DE/Mage_Catalog.csv:"Please click on Close Window button if it won't be closed automatically","Bitte klicken Sie auf den Fenster schließen Button, wenn sich das Fenster nicht von alleine schließt."
+locale/de_DE/Mage_Install.csv:"Check this box only if it is not possible to automatically validate Base URL.","Check this box only if it is not possible to automatically validate Base URL."
+locale/de_DE/Mage_Install.csv:"Check this box only if it is not possible to automatically validate Secure URL, for example if HTTP authentication is required.","Setzen Sie diesen Haken, falls bei der Überprüfung der sicheren Verbindung Probleme auftraten. Zum Beispiel wenn eine HTTP-Authentifikation notwendig sein sollte."
+locale/de_DE/Mage_Payment.csv:"Automatically invoice all items","Automatically invoice all items"
+locale/en_US/template/email/sales/shipment_new_guest.html:                        If you have any questions about your order please contact us at <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> or call us at <span class="nobr">{{config path='general/store_information/phone'}}</span> Monday - Friday, 8am - 5pm PST.
+locale/en_US/template/email/sales/order_new_guest.html:                        If you have any questions about your order please contact us at <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> or call us at <span class="nobr">{{config path='general/store_information/phone'}}</span> Monday - Friday, 8am - 5pm PST.
+locale/en_US/template/email/sales/invoice_new_guest.html:                        If you have any questions about your order please contact us at <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> or call us at <span class="nobr">{{config path='general/store_information/phone'}}</span> Monday - Friday, 8am - 5pm PST.
+locale/en_US/template/email/sales/shipment_new.html:                        If you have any questions about your order please contact us at <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> or call us at <span class="nobr">{{config path='general/store_information/phone'}}</span> Monday - Friday, 8am - 5pm PST.
+locale/en_US/template/email/sales/creditmemo_new.html:                        If you have any questions about your order please contact us at <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> or call us at <span class="nobr">{{config path='general/store_information/phone'}}</span> Monday - Friday, 8am - 5pm PST.
+locale/en_US/template/email/sales/invoice_new.html:                        If you have any questions about your order please contact us at <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> or call us at <span class="nobr">{{config path='general/store_information/phone'}}</span> Monday - Friday, 8am - 5pm PST.
+locale/en_US/template/email/sales/order_new.html:                        If you have any questions about your order please contact us at <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> or call us at <span class="nobr">{{config path='general/store_information/phone'}}</span> Monday - Friday, 8am - 5pm PST.
+locale/en_US/template/email/sales/creditmemo_new_guest.html:                        If you have any questions about your order please contact us at <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> or call us at <span class="nobr">{{config path='general/store_information/phone'}}</span> Monday - Friday, 8am - 5pm PST.
+locale/en_US/template/email/qquoteadv/qquoteadv_expire.html:                               If you have any questions about your quote request please contact us at <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> or call us at <span class="nobr">{{config path='general/store_information/phone'}}</span> Monday - Friday, 8am - 5pm PST.
+locale/en_US/template/email/qquoteadv/qquoteadv_request_details.html:                        If you have any questions about your quote request please contact us at <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> or call us at <span class="nobr">{{config path='general/store_information/phone'}}</span> Monday - Friday, 8am - 7pm EST.
+locale/en_US/template/email/qquoteadv/qquoteadv_proposal.html:                        If you have any questions about your quote request please contact us at <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> or call us at <span class="nobr">{{config path='general/store_information/phone'}}</span> Monday - Friday, 8am - 5pm PST. {{depend adminname}}This quote was created by: {{var adminname}}{{/depend}}
+locale/en_US/template/email/qquoteadv/qquoteadv_request.html:                        If you have any questions about your quote request please contact us at <a href="mailto:dummyemail@magentocommerce.com" style="color:#1E7EC8;">dummyemail@magentocommerce.com</a> or call us at <span class="nobr">(555) 555-0123</span> Monday - Friday, 8am - 5pm PST.
+locale/en_US/template/email/qquoteadv/qquoteadv_cancel.html:                        If you have any questions about making a new Quote Request please contact us at <a href="mailto:dummyemail@magentocommerce.com" style="color:#1E7EC8;">dummyemail@magentocommerce.com</a> or call us at <span class="nobr">(555) 555-0123</span> Monday - Friday, 8am - 5pm PST.
+locale/en_US/template/email/qquoteadv/qquoteadv_reject.html:                        If you have any questions about making a new Quote Request please contact us at <a href="mailto:dummyemail@magentocommerce.com" style="color:#1E7EC8;">dummyemail@magentocommerce.com</a> or call us at <span class="nobr">(555) 555-0123</span> Monday - Friday, 8am - 5pm PST.
+locale/en_US/Mage_CatalogInventory.csv:"Automatically Return Credit Memo Item to Stock","Automatically Return Credit Memo Item to Stock"
+locale/en_US/Mage_XmlConnect.csv:"Icon that will appear on the user\'s device after they download your app. You do not need to apply a gradient or soft edges (this is done automatically by Apple). Recommended size: 72px x 72px.","Icon that will appear on the user\'s device after they download your app. You do not need to apply a gradient or soft edges (this is done automatically by Apple). Recommended size: 72px x 72px."
+locale/en_US/Mage_XmlConnect.csv:"Icon that will appear on the user\'s phone after they download your app. You do not need to apply a gradient or soft edges (this is done automatically by Apple). Recommended size: 114px x 114px.","Icon that will appear on the user\'s phone after they download your app. You do not need to apply a gradient or soft edges (this is done automatically by Apple). Recommended size: 114px x 114px."
+locale/en_US/Mage_XmlConnect.csv:"Icon that will appear on the user’s phone after they download your app.  You do not need to apply a gradient or soft edges (this is done automatically by Apple).  Recommended size: 57px x 57px at 72 dpi.","Icon that will appear on the user’s phone after they download your app.  You do not need to apply a gradient or soft edges (this is done automatically by Apple).  Recommended size: 57px x 57px at 72 dpi."
+locale/en_US/Mage_XmlConnect.csv:"Large icon that appears in the iTunes App Store. You do not need to apply a gradient or soft edges (this is done automatically by Apple). Required size: 512px x 512px.","Large icon that appears in the iTunes App Store. You do not need to apply a gradient or soft edges (this is done automatically by Apple). Required size: 512px x 512px."
+locale/en_US/Mage_GoogleCheckout.csv:"Credit memo has been created automatically","Credit memo has been created automatically"
+locale/en_US/Mage_Api2.csv:"Automatically Return Credit Memo Item to Stock","Automatically Return Credit Memo Item to Stock"
+locale/en_US/Mage_Cron.csv:"Invalid callback: %s::%s does not exist","Invalid callback: %s::%s does not exist"
+locale/en_US/Mage_Cron.csv:"No callbacks found","No callbacks found"
+locale/en_US/Mage_Catalog.csv:"Please click on the Close Window button if it is not closed automatically.","Please click on the Close Window button if it is not closed automatically."
+locale/en_US/Mage_Install.csv:"Check this box only if it is not possible to automatically validate Secure URL, for example if HTTP authentication is required.","Check this box only if it is not possible to automatically validate Secure URL, for example if HTTP authentication is required."
+locale/en_US/Mage_Install.csv:"Check this box only if it is not possible to automatically validate the Base URL.","Check this box only if it is not possible to automatically validate the Base URL."
+locale/en_US/Mage_Payment.csv:"Automatically Invoice All Items","Automatically Invoice All Items"
+locale/en_US/Mage_Payment.csv:"Automatically bill the outstanding balance amount in the next billing cycle (if there were failed payments).","Automatically bill the outstanding balance amount in the next billing cycle (if there were failed payments)."
+locale/en_US/Mage_Payment.csv:"The number of scheduled payments that can fail before the profile is automatically suspended.","The number of scheduled payments that can fail before the profile is automatically suspended."
+locale/en_US/Mage_Sales.csv:"Credit memo has been created automatically","Credit memo has been created automatically"
+locale/fr_FR/Mage_CatalogInventory.csv:"Automatically Return Credit Memo Item to Stock","Remettre automatiquement en stock un article faisant l'objet d'un avoir"
+locale/fr_FR/Mage_XmlConnect.csv:"Apply will automatically resize this image for display in the App Store and on users’ devices.  A gloss (i.e. gradient) will also be applied, so you do not need to apply a gradient.  Image must be at least 512x512","L'image sera automatiquement redimensionnée pour l'affichage dans l'App Store et sur les terminaux des utilisateurs. Un brillant sera appliqué, vous n'avez donc pas à appliquer de gradient. L'image doit faire au moins 512 x 512 px."
+locale/fr_FR/Mage_XmlConnect.csv:"Icon that will appear on the user’s phone after they download your app.  You do not need to apply a gradient or soft edges (this is done automatically by Apple).  Recommended size: 57px x 57px at 72 dpi.","Icône qui apparaîtra sur le téléphone de l'utilisateur après le téléchargement de l'application. Il n'est pas nécessaire d'appliquer de gradient ou d'adoucissement de bordures (ce sera fait automatiquement par Apple). Taille recommandée : 57 x 57 px à la résolution de 72 dpi."
+locale/fr_FR/Mage_XmlConnect.csv:"Large icon that appears in the iTunes App Store. You do not need to apply a gradient or soft edges (this is done automatically by Apple). Required size: 512px x 512px.","Grande icône qui apparaît dans l'App Store iTunes. Il n'est pas nécessaire d'appliquer de gradient ou d'adoucissement de bordures (ce sera fait automatiquement par Apple). Taille obligatoire : 512 x 512px."
+locale/fr_FR/Mage_XmlConnect.csv:"Icon that will appear on the user's device after they download your app. You do not need to apply a gradient or soft edges (this is done automatically by Apple). Recommended size: 72px x 72px.","Icône qui apparaîtra sur le téléphone de l'utilisateur après le téléchargement de l'application. Il n'est pas nécessaire d'appliquer de gradient ou d'adoucissement de bordures (ce sera fait automatiquement par Apple). Taille recommandée : 72 x 72 px."
+locale/fr_FR/Mage_XmlConnect.csv:"Icon that will appear on the user's phone after they download your app. You do not need to apply a gradient or soft edges (this is done automatically by Apple). Recommended size: 114px x 114px.","Icône qui apparaîtra sur le téléphone de l'utilisateur après le téléchargement de l'application. Il n'est pas nécessaire d'appliquer de gradient ou d'adoucissement de bordures (ce sera fait automatiquement par Apple). Taille recommandée : 114 x 114 px."
+locale/fr_FR/Mage_GoogleCheckout.csv:"Credit memo has been created automatically","L'avoir a été créé automatiquement"
+locale/fr_FR/Mage_Api2.csv:"Automatically Return Credit Memo Item to Stock","Remettre automatiquement en stock un article faisant l'objet d'un avoir"
+locale/fr_FR/Mage_Cron.csv:"Invalid callback: %s::%s does not exist","Rappel non valide : %s::%s n'existe pas"
+locale/fr_FR/Mage_Cron.csv:"No callbacks found","Aucun rappel trouvé"
+locale/fr_FR/Phoenix_Moneybookers.csv:"Pre-shared secret key to secure the transaction. After activation Moneybookers will give you access to a new section in your Moneybookers account called ""Merchant tools"". Please choose a secret word (do not use your password for this) and provide it in your Moneybookers admin area and above.","Clé secrète pré-partagée pour sécuriser la transaction. Après l'activation, MoneyBookers vous donnera un accès à une nouvelle section dans votre compte MoneyBookers appelée ""Merchant tools"". Choisissez un mot secret (n'utilisez pas votre mot de passe ici) et renseignez-le dans votre compte MoneyBookers et ci-dessus."
+locale/fr_FR/Mage_Catalog.csv:"Please click on the Close Window button if it is not closed automatically.","Cliquez sur le bouton 'Fermer la fenêtre' si celle-ci ne se ferme pas automatiquement."
+locale/fr_FR/Mage_Install.csv:"Check this box only if it is not possible to automatically validate Secure URL, for example if HTTP authentication is required.","Cochez cette case uniquement s'il n'est pas possible de valider automatiquement l'URL sécurisée, par exemple si une authentification HTTP est nécessaire."
+locale/fr_FR/Mage_Install.csv:"Check this box only if it is not possible to automatically validate the Base URL.","Cochez cette case uniquement s'il n'est pas possible de valider automatiquement l'URL de base."
+locale/fr_FR/Mage_Payment.csv:"Automatically Invoice All Items","Facturer automatiquement tous les articles"
+locale/fr_FR/Mage_Payment.csv:"Automatically bill the outstanding balance amount in the next billing cycle (if there were failed payments).","Facturer automatiquement le montant impayé au prochain cycle de facturation (s'il y a eu des paiements échoués)"
+locale/fr_FR/Mage_Payment.csv:"The number of scheduled payments that can fail before the profile is automatically suspended.","Le nombre de paiements programmés qui peuvent échouer avant que le profil soit suspendu automatiquement."
+locale/fr_FR/Mage_Sales.csv:"Credit memo has been created automatically","L'avoir a été créé automatiquement"
+Mage.php:            // automagically find application root by dirname of Mage.php
+Mage.php:     * @param callback $callback
+Mage.php:    public static function addObserver($eventName, $callback, $data = array(), $observerName = '', $observerClass = '')
+Mage.php:        $observer->setName($observerName)->addData($data)->setEventName($eventName)->setCallback($callback);
+Mage.php:     * Calls all observer callbacks registered for this event

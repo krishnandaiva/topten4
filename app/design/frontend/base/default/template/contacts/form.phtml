@@ -1,0 +1,106 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+    <!-- @begin contact -->
+	<div id="contact" class="section">
+		<div class="content"><div class='desc'>Contact Us</div>
+<div class='contact-form'> <form name="contactForm"   id="contactForm">
+    <div class="fieldset">
+	<ol class="formContainer" id="rsform_2_page_0">
+		<li class="rsform-block rsform-block-fullname">
+                <div class="field">
+                    <label for="name" class="required"><em>*</em><?php echo Mage::helper('contacts')->__('Name') ?></label>
+                    <div class="input-box">
+                        <input name="name" id="name" title="<?php echo Mage::helper('contacts')->__('Name') ?>" value="<?php echo $this->htmlEscape($this->helper('contacts')->getUserName()) ?>" class="input-text required-entry" type="text" />
+                    </div>
+                </div>
+		</li>
+		<li class="rsform-block rsform-block-email">
+                <div class="field">
+                    <label for="email" class="required"><em>*</em><?php echo Mage::helper('contacts')->__('Email') ?></label>
+                    <div class="input-box">
+                        <input name="email" id="email" title="<?php echo Mage::helper('contacts')->__('Email') ?>" value="<?php echo $this->htmlEscape($this->helper('contacts')->getUserEmail()) ?>" class="input-text required-entry validate-email" type="text" />
+                    </div>
+                </div>
+            </li>
+            <li class="rsform-block rsform-block-phone">
+                <label for="telephone"><?php echo Mage::helper('contacts')->__('Telephone') ?></label>
+                <div class="input-box">
+                    <input name="telephone" id="telephone" title="<?php echo Mage::helper('contacts')->__('Telephone') ?>" value="" class="input-text" type="text" />
+                </div>
+            </li>
+
+<li class="rsform-block rsform-block-devis">
+		
+		<div class="formBody"><label for="dropdown"><?php echo Mage::helper('contacts')->__('Quote For') ?></label>
+<select name="dropdown" id="dropdown" class="rsform-select-box">
+<option value="Maintenance">Maintenance</option><option value="Part Number">Part Number</option>
+<option value="Buy">Buy</option>
+<option value="Upgrade">Upgrade</option>
+<option value="Rental">Rental</option>
+</select></div>
+		<div class="formDescription"></div>
+	</li>
+
+            <li class="rsform-block rsform-block-message">
+                <label for="comment" class="required"><em>*</em><?php echo Mage::helper('contacts')->__('Comment') ?></label>
+                <div class="input-box">
+                    <textarea name="comment" id="comment" title="<?php echo Mage::helper('contacts')->__('Comment') ?>" class="required-entry input-text" cols="5" rows="10"></textarea>
+                </div>
+            </li>
+		<li class="rsform-block rsform-block-submit">
+        <input type="text" name="hideit" id="hideit" value="" style="display:none !important;" />
+        <button type="submit" onclick="fsubm()"  title="<?php echo Mage::helper('contacts')->__('Submit') ?>" class="button"><span><span><?php echo Mage::helper('contacts')->__('Submit') ?></span></span></button>
+   </li>
+        </ol>
+    </div>
+    
+</form>
+<form id="feedback" style="display: none">Thank you, your email has been sent.</div>
+
+	</div>
+				
+			
+		</div>
+    </div><!-- End #contact -->
+<script type="text/javascript">
+//<![CDATA[
+
+    var contactForm = new VarienForm('contactForm', true);
+ 
+    function fsubm(){ 
+            if (contactForm.validator.validate()) {
+             new Ajax.Updater({success:'contactForm'}, '<?php echo $this->getUrl('contacts/index/post') ?>', {method:'post', action:"/contacts/index/post", asynchronous:true, evalScripts:false, onComplete:function(request, json){Element.hide('contactForm');Element.show('feedback');}, onLoading:function(request, json){Element.show('loader')}, 
+             parameters:Form.serialize($('contactForm')) success: function(response) {
+        $('contactForm').find('.form_result').html(response);
+    }});
+
+    return false;
+             }
+       }
+       
+//]]>
+</script>

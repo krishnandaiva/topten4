@@ -1,0 +1,102 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ 
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/* @var $this Mage_Core_Block_Template */
+/* @var $catalogSearchHelper Mage_Catalogsearch_Helper_Data */
+$catalogSearchHelper =  $this->helper('catalogsearch');
+
+
+?>
+	<!-- HTC Files for IE -->
+
+<style> 
+.info .title { behavior: url (http://www.toptenstorage.com/skin/frontend/default/grayscale_red/css/scripts/boxsizing.htc); } 
+</style>
+<style> 
+.info         { behavior: url (http://www.toptenstorage.com/skin/frontend/default/grayscale_red/css/scripts/boxsizing.htc); } 
+</style>
+<style> 
+.undertitle { behavior: url (http://www.toptenstorage.com/skin/frontend/default/grayscale_red/css/scripts/boxsizing.htc); } 
+</style>
+<style> 
+.number { behavior: url (http://www.toptenstorage.com/skin/frontend/default/grayscale_red/css/scripts/boxsizing.htc); } 
+</style>
+
+<article id="slider">
+<div id="respond">
+		<!-- Slider Setup -->
+		<input checked type="radio" name="slider" id="slide1" >
+		<input type="radio" name="slider" id="slide2">
+		<input type="radio" name="slider" id="slide3">
+</div>
+		<!-- Controls and Active Slide Display -->
+		<div id="controls">
+
+			<label for="slide1"></label>
+			<label for="slide2"></label>
+			<label for="slide3"></label>
+		
+		</div> <!-- #controls -->
+	
+		<!-- The Slider -->
+		
+		<div id="slides">
+		
+			<div id="overflow">
+			
+				<div class="inner">
+				
+					<article>
+<div class="info"> <div class="title"  ><?php echo $this->__('TOP TEN USA') ?></div><div class="undertitle"><?php echo $this->__('Your Storage Technology Partner') ?></div><div class="number"><?php echo $this->__('908-850-5016') ?></div>
+<ul id="navlist">
+<li><?php echo $this->__('Over 8.500 items in stock') ?></li>
+<li><?php echo $this->__('Refurbished to Manufacturer Specification') ?></li>
+<li><?php echo $this->__('From DAT/SDLT/LTO to enterprise solutions') ?></li>
+<li><?php echo $this->__('Repair, Sale and advanced exchanges') ?></li>
+</ul>
+
+ 
+</div>
+						<img src="./media/Banner_1.gif">
+					</article>
+	
+				</div> <!-- .inner -->
+				
+			</div> <!-- #overflow -->
+		
+		</div> <!-- #slides -->
+	
+		<div id="active">
+
+			<label for="slide1"></label>
+			<label for="slide2"></label>
+			<label for="slide3"></label>
+	
+		
+		</div> <!-- #active -->
+	
+	</article>
+
