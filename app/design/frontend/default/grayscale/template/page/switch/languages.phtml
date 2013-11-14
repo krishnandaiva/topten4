@@ -34,20 +34,21 @@
 <div class="form-language span6">
 	<div class="select pull-recht">
 		<label for="select-language" id="mt_language" class="hidden-tablet"><?php echo $this->__('Language:') ?></label>
-		<select id="select-language" title="<?php echo $this->__('Language') ?>" onchange="window.location.href=this.value">
-		<?php foreach ($this->getStores() as $_lang): ?>
-			<?php $_selected = ($_lang->getId() == $this->getCurrentStoreId()) ? ' selected="selected"' : '' ?>
-			<option class="" value="<?php echo $_lang->getCurrentUrl() ?>"<?php echo $_selected ?>><?php echo $this->htmlEscape($_lang->getName()) ?></option>
-		<?php endforeach; ?>
-		</select>
+		<ul class="menu">
+    <li>
+        <a href="#">Dropdown</a>
+        <ul>
+            <li><a href="#">Some Action 1</a></li>
+            <li><a href="#">Some Action 2</a></li>
+            <li><a href="#">Some Action 3</a></li>
+            <li><a href="#">Some Action 4</a></li>
+        </ul>
+    </li>
+</ul>
 		
 		<script type="text/javascript">
-			$mtkb(document).ready(function(){					
-				$mtkb('.sbOptions li:eq(0) a').addClass('eng'); 
-				$mtkb('.sbOptions li:eq(1) a').addClass('frm'); 
-				$mtkb('.sbOptions li:eq(2) a').addClass('gre'); 
-				$mtkb('.sbHolder:eq(0)').addClass('lang');
-				$mtkb('.sbHolder:eq(1)').addClass('curs');
+			$(document).ready(function() {
+   			 $('.menu').dropit();
 			});
 		</script>		
 	</div>

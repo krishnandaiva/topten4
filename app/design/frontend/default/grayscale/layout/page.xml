@@ -61,9 +61,8 @@ Default layout, loads most of the pages
                 <!--
                 DropDownBoxJS
                 -->
-                <script src="dropit.js"></script>
-		
-		
+                <action method="addJs"><script>varien/dropit.js</script></action>
+           
                 <block type="page/js_cookie" name="js_cookies" template="page/js/cookie.phtml"/>
 		        <action method="addCss"><stylesheet>css/slider-new.css</stylesheet></action>			
                 <action method="addCss"><stylesheet>css/styles.css</stylesheet></action>
