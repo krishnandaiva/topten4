@@ -33,22 +33,20 @@
 ?>
 <div class="form-language span6">
 	<div class="select pull-recht">
-		<label for="select-language" id="mt_language" class="hidden-tablet"><?php echo $this->__('Language:') ?></label>
+		<label for="select-language" id="mt_language" class="hidden-tablet"><?php echo $this->__('Switch Store:') ?></label>
 		<ul class="menu">
     <li>
-        <a href="#">Dropdown</a>
+        <a href="#">STORE</a>
         <ul>
-            <li><a href="#">Some Action 1</a></li>
-            <li><a href="#">Some Action 2</a></li>
-            <li><a href="#">Some Action 3</a></li>
-            <li><a href="#">Some Action 4</a></li>
+            <li><a href="#">EU STORE</a></li>
+            <li><a href="#">US STORE</a></li>
         </ul>
     </li>
 </ul>
 		
 		<script type="text/javascript">
-			$(document).ready(function() {
-   			 $('.menu').dropit();
+			$mtkb(document).ready(function() {
+   			 $mtkb('.menu').dropit();
 			});
 		</script>		
 	</div>
