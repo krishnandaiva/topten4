@@ -145,6 +145,7 @@ padding-right: 10px;
 
 .sbHolder {
 text-align: left;
+float: left;
 }
 
 
@@ -230,7 +231,7 @@ background: url(http://localhost.magento-store.com/skin/frontend/default/mod/ima
 	padding: 3px 20px 3px 8px;
 	position: relative; }
 
-.sbSelector { font-size: 100%; }
+.sbSelector { font-size: 14px; }
 
 	.sbSelector:link, .sbSelector:visited, .sbSelector:hover {
 		outline: none;
