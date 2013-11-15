@@ -33,20 +33,20 @@
 ?>
 <div class="form-language span6">
 	<div class="select pull-recht">
-		<label for="select-language" id="mt_language" class="hidden-tablet"><?php echo $this->__('Switch Store:') ?></label>
-		<ul class="menu">
-    <li>
-        <a href="#">STORE</a>
-        <ul>
-            <li><a href="#">EU STORE</a></li>
-            <li><a href="#">US STORE</a></li>
-        </ul>
-    </li>
-</ul>
+		<label for="select-language" id="mt_language" class="hidden-tablet"><?php echo $this->__('Switch to our:') ?></label>
+		<select id="select-language" title="<?php echo $this->__('Language') ?>" onchange="window.location.href=this.value">
+	  <option value="http://www.toptenstorage.co.uk">EU Shop</option>
+		</select>
 		
 		<script type="text/javascript">
-			$mtkb(document).ready(function() {
-   			 $mtkb('.menu').dropit();
+			$mtkb(document).ready(function(){					
+				$mtkb('.sbOptions li:eq(0) a').addClass('eng'); 
+				$mtkb('.sbOptions li:eq(1) a').addClass('frm'); 
+				$mtkb('.sbOptions li:eq(2) a').addClass('gre'); 
+				$mtkb('.sbOptions li:eq(3) a').addClass('it'); 
+				$mtkb('.sbOptions li:eq(4) a').addClass('es'); 
+				$mtkb('.sbHolder:eq(0)').addClass('lang');
+				$mtkb('.sbHolder:eq(1)').addClass('curs');
 			});
 		</script>		
 	</div>
