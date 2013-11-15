@@ -58,10 +58,7 @@ Default layout, loads most of the pages
                 <action method="addJs" ifconfig="mtcolinusadmin/otherconfig/enabled_priceslider"><script>magenthemes/mt_colinus/js/jquery.blockUI.js</script></action>  
                 <action method="addItem"><type>js</type><name>lib/ds-sleight.js</name><params/><if>lt IE 7</if></action>
                 <action method="addItem"><type>skin_js</type><name>js/ie6.js</name><params/><if>lt IE 7</if></action>
-                <!--
-                DropDownBoxJS
-                -->
-                <action method="addJs"><script>varien/dropit.js</script></action>
+           
            
                 <block type="page/js_cookie" name="js_cookies" template="page/js/cookie.phtml"/>
 		        <action method="addCss"><stylesheet>css/slider-new.css</stylesheet></action>			
@@ -72,7 +69,6 @@ Default layout, loads most of the pages
 		        <action method="addCss"><stylesheet>css/touchcarousel.css</stylesheet></action>
 		        <action method="addCss"><stylesheet>css/grey-blue-skin.css</stylesheet></action>
       	        <action method="addCss"><stylesheet>css/contact.css</stylesheet></action>
-                <action method="addCss"><stylesheet>css/dropit.css</stylesheet></action>
 
 <!--
 testing new css from theme
